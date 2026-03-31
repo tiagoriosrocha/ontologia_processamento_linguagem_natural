@@ -21,11 +21,11 @@ Esta ontologia PLN é uma **representação formal e estruturada do conhecimento
 
 ---
 
-## 📦 Arquivos da Ontologia
+## 📦 Arquivo da Ontologia
 
 | Arquivo | Tipo | Descrição |
 |---------|------|-----------|
-| **`onto_pln.owl`** | TBox (Terminologia) | Ontologia principal: 315 classes, 9 propriedades, 2.380 linhas |
+| **`onto_pln.owl`** | OWL 2.0 | Ontologia principal: 315 classes, 9 propriedades, 2.380 linhas |
 
 ---
 
@@ -158,7 +158,6 @@ Esta ontologia PLN pode ser utilizada para:
 |----------|-----------|
 | **Classes** | 315 |
 | **Object Properties** | 9 |
-| **Instances (Exemplos)** | 62 |
 | **Linhas OWL/XML** | 2.380 |
 | **Linguagens Suportadas** | Português + Inglês |
 
@@ -209,22 +208,6 @@ A ontologia foi validada quanto a:
 - ✅ **Integridade de Hierarquias**: Subclass relations válidas
 - ✅ **Correção Ortográfica**: 315 classes auditadas
 - ✅ **Coerência Semântica**: Relações lógicas consistentes
-
----
-
-## 📝 Citação
-
-Se usar esta ontologia em pesquisa ou sistemas, cite como:
-
-```bibtex
-@ontology{onto_pln_2024,
-  title={Ontologia de Processamento de Linguagem Natural},
-  author={Caseli, Helena de Medeiros and Nunes, Maria das Graças Volpe},
-  year={2024},
-  url={brasileiraspln.com/livro-pln},
-  note={Baseada na 3ª edição do livro "Processamento de Linguagem Natural: Conceitos, Técnicas e Aplicações em Português"}
-}
-```
 
 ---
 
