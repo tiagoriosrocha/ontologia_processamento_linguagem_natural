@@ -1,0 +1,1342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF 
+  xmlns="http://www.ufrgs.br/ontologies/onto_pln.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:pln="http://www.ufrgs.br/ontologies/onto_pln.owl#"
+  xml:base="http://www.ufrgs.br/ontologies/onto_pln.owl#">
+
+<owl:Ontology rdf:about="http://www.ufrgs.br/ontologies/onto_pln.owl">
+  <rdfs:label xml:lang="pt">Ontologia de Processamento de Linguagem Natural - Versão 3</rdfs:label>
+  <rdfs:label xml:lang="en">Natural Language Processing Ontology - Version 3</rdfs:label>
+  <rdfs:comment>Ontologia abrangente de PLN baseada no livro "Processamento de Linguagem Natural: Conceitos, Técnicas e Aplicações em Português" (BPLN, 3ª edição, 2024)</rdfs:comment>
+  <owl:versionInfo>3.0</owl:versionInfo>
+</owl:Ontology>
+
+<!-- ============ CONCEITOS FUNDAMENTAIS ============ -->
+<owl:Class rdf:about="#ConcetoFundamental">
+  <rdfs:label xml:lang="pt">Conceito Fundamental</rdfs:label>
+  <rdfs:label xml:lang="en">Fundamental Concept</rdfs:label>
+  <rdfs:comment>Conceitos básicos que fundamentam a PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Linguagem">
+  <rdfs:subClassOf rdf:resource="#ConcetoFundamental" />
+  <rdfs:label xml:lang="pt">Linguagem</rdfs:label>
+  <rdfs:label xml:lang="en">Language</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#LinguaFalada">
+  <rdfs:subClassOf rdf:resource="#Linguagem" />
+  <rdfs:label xml:lang="pt">Língua Falada</rdfs:label>
+  <rdfs:label xml:lang="en">Spoken Language</rdfs:label>
+  <skos:broader rdf:resource="#Linguagem" />
+</owl:Class>
+
+<owl:Class rdf:about="#LinguaEscrita">
+  <rdfs:subClassOf rdf:resource="#Linguagem" />
+  <rdfs:label xml:lang="pt">Língua Escrita</rdfs:label>
+  <rdfs:label xml:lang="en">Written Language</rdfs:label>
+  <skos:altLabel>Texto</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Token">
+  <rdfs:subClassOf rdf:resource="#ConcetoFundamental" />
+  <rdfs:label xml:lang="pt">Token</rdfs:label>
+  <rdfs:label xml:lang="en">Token</rdfs:label>
+  <rdfs:comment>Unidade discreta de texto (palavra, pontuação)</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Type">
+  <rdfs:subClassOf rdf:resource="#ConcetoFundamental" />
+  <rdfs:label xml:lang="pt">Type</rdfs:label>
+  <rdfs:label xml:lang="en">Type</rdfs:label>
+  <rdfs:comment>Tipo de token, forma única</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Lexema">
+  <rdfs:subClassOf rdf:resource="#ConcetoFundamental" />
+  <rdfs:label xml:lang="pt">Lexema</rdfs:label>
+  <rdfs:label xml:lang="en">Lexeme</rdfs:label>
+  <rdfs:comment>Unidade de significado convencional</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Lema">
+  <rdfs:subClassOf rdf:resource="#ConcetoFundamental" />
+  <rdfs:label xml:lang="pt">Lema</rdfs:label>
+  <rdfs:label xml:lang="en">Lemma</rdfs:label>
+  <rdfs:comment>Forma canônica de um conjunto de palavras relacionadas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Significado">
+  <rdfs:subClassOf rdf:resource="#ConceitoFundamental" />
+  <rdfs:label xml:lang="pt">Significado</rdfs:label>
+  <rdfs:label xml:lang="en">Meaning</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Referencia">
+  <rdfs:subClassOf rdf:resource="#ConceitoFundamental" />
+  <rdfs:label xml:lang="pt">Referência</rdfs:label>
+  <rdfs:label xml:lang="en">Reference</rdfs:label>
+  <rdfs:comment>Relação entre expressão e seu objeto no mundo</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Contexto">
+  <rdfs:subClassOf rdf:resource="#ConceitoFundamental" />
+  <rdfs:label xml:lang="pt">Contexto</rdfs:label>
+  <rdfs:label xml:lang="en">Context</rdfs:label>
+  <rdfs:comment>Informação circundante que influencia interpretação</rdfs:comment>
+</owl:Class>
+
+<!-- ============ NÍVEIS LINGUÍSTICOS ============ -->
+<owl:Class rdf:about="#NivelLinguistico">
+  <rdfs:label xml:lang="pt">Nível Linguístico</rdfs:label>
+  <rdfs:label xml:lang="en">Linguistic Level</rdfs:label>
+  <rdfs:comment>Diferentes níveis de análise da linguagem</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Fonetica">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Fonética</rdfs:label>
+  <rdfs:label xml:lang="en">Phonetics</rdfs:label>
+  <rdfs:comment>Estudo dos sons da fala, produção, classificação e transcrição</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Fonologia">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Fonologia</rdfs:label>
+  <rdfs:label xml:lang="en">Phonology</rdfs:label>
+  <rdfs:comment>Estudo de padrões e distribuição de sons em uma língua</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Morfologia">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Morfologia</rdfs:label>
+  <rdfs:label xml:lang="en">Morphology</rdfs:label>
+  <rdfs:comment>Como morfemas se organizam para formar palavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Morfossintaxe">
+  <rdfs:subClassOf rdf:resource="#Morfologia" />
+  <rdfs:label xml:lang="pt">Morfossintaxe</rdfs:label>
+  <rdfs:label xml:lang="en">Morphosyntax</rdfs:label>
+  <rdfs:comment>Intersecção entre morfologia e sintaxe</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Sintaxe">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Sintaxe</rdfs:label>
+  <rdfs:label xml:lang="en">Syntax</rdfs:label>
+  <rdfs:comment>Organização de palavras em estruturas para formar sentenças</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SintaxeConstituencia">
+  <rdfs:subClassOf rdf:resource="#Sintaxe" />
+  <rdfs:label xml:lang="pt">Sintaxe de Constituência</rdfs:label>
+  <rdfs:label xml:lang="en">Constituency-based Syntax</rdfs:label>
+  <rdfs:comment>Análise com base em estruturas de sintagmas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SintaxeDependencia">
+  <rdfs:subClassOf rdf:resource="#Sintaxe" />
+  <rdfs:label xml:lang="pt">Sintaxe de Dependência</rdfs:label>
+  <rdfs:label xml:lang="en">Dependency-based Syntax</rdfs:label>
+  <rdfs:comment>Análise com base em relações de dependência entre palavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Semantica">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Semântica</rdfs:label>
+  <rdfs:label xml:lang="en">Semantics</rdfs:label>
+  <rdfs:comment>Estudo de significado de palavras e frases</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SemanticaSimbolia">
+  <rdfs:subClassOf rdf:resource="#Semantica" />
+  <rdfs:label xml:lang="pt">Semântica Simbólica</rdfs:label>
+  <rdfs:label xml:lang="en">Symbolic Semantics</rdfs:label>
+  <rdfs:comment>Representação explícita de significado através de símbolos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SemanticaDistribucional">
+  <rdfs:subClassOf rdf:resource="#Semantica" />
+  <rdfs:label xml:lang="pt">Semântica Distribucional</rdfs:label>
+  <rdfs:label xml:lang="en">Distributional Semantics</rdfs:label>
+  <rdfs:comment>Significado derivado de contexto e coocorrência</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SemanticaVetorial">
+  <rdfs:subClassOf rdf:resource="#SemanticaDistribucional" />
+  <rdfs:label xml:lang="pt">Semântica Vetorial</rdfs:label>
+  <rdfs:label xml:lang="en">Vector Semantics</rdfs:label>
+  <rdfs:comment>Representação de significado como vetores numéricos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Pragmatica">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Pragmática</rdfs:label>
+  <rdfs:label xml:lang="en">Pragmatics</rdfs:label>
+  <rdfs:comment>Como orações são utilizadas para fins comunicativos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Prosodeia">
+  <rdfs:subClassOf rdf:resource="#Pragmatica" />
+  <rdfs:label xml:lang="pt">Prosódia</rdfs:label>
+  <rdfs:label xml:lang="en">Prosody</rdfs:label>
+  <rdfs:comment>Padrões de entonação, duração e volume</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Entonacao">
+  <rdfs:subClassOf rdf:resource="#Prosodeia" />
+  <rdfs:label xml:lang="pt">Entonação</rdfs:label>
+  <rdfs:label xml:lang="en">Intonation</rdfs:label>
+  <rdfs:comment>Variação de frequência fundamental na fala</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Discurso">
+  <rdfs:subClassOf rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">Discurso</rdfs:label>
+  <rdfs:label xml:lang="en">Discourse</rdfs:label>
+  <rdfs:comment>Relações entre frases/partes de um texto; estrutura textual</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TAREFAS DE PLN - NÍVEL 1 (Categorias Principais) ============ -->
+<owl:Class rdf:about="#TarefaPLN">
+  <rdfs:label xml:lang="pt">Tarefa PLN</rdfs:label>
+  <rdfs:label xml:lang="en">NLP Task</rdfs:label>
+  <rdfs:comment>Tarefas computacionais em PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TarefaAnalise">
+  <rdfs:subClassOf rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">Tarefa de Análise</rdfs:label>
+  <rdfs:label xml:lang="en">Analysis Task</rdfs:label>
+  <rdfs:comment>Tarefas que analisam propriedades linguísticas de textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TarefaGeracao">
+  <rdfs:subClassOf rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">Tarefa de Geração</rdfs:label>
+  <rdfs:label xml:lang="en">Generation Task</rdfs:label>
+  <rdfs:comment>Tarefas que geram novo texto ou fala</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TarefaClassificacao">
+  <rdfs:subClassOf rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">Tarefa de Classificação</rdfs:label>
+  <rdfs:label xml:lang="en">Classification Task</rdfs:label>
+  <rdfs:comment>Tarefas que atribuem categorias ou etiquetas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TarefaRecuperacao">
+  <rdfs:subClassOf rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">Tarefa de Recuperação</rdfs:label>
+  <rdfs:label xml:lang="en">Retrieval Task</rdfs:label>
+  <rdfs:comment>Tarefas de busca e recuperação de informação</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TAREFAS - ANÁLISE ============ -->
+<owl:Class rdf:about="#Sentenciacao">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Sentenciação</rdfs:label>
+  <rdfs:label xml:lang="en">Sentence Segmentation</rdfs:label>
+  <rdfs:comment>Segmentação de texto em sentenças</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Tokenizacao">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Tokenização</rdfs:label>
+  <rdfs:label xml:lang="en">Tokenization</rdfs:label>
+  <rdfs:comment>Segmentação de texto em tokens</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TokenizacaoTradicional">
+  <rdfs:subClassOf rdf:resource="#Tokenizacao" />
+  <rdfs:label xml:lang="pt">Tokenização Tradicional</rdfs:label>
+  <rdfs:label xml:lang="en">Traditional Tokenization</rdfs:label>
+  <rdfs:comment>Segmentação baseada em espaços em branco e pontuação</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TokenizacaoSubpalavra">
+  <rdfs:subClassOf rdf:resource="#Tokenizacao" />
+  <rdfs:label xml:lang="pt">Tokenização em Subpalavras</rdfs:label>
+  <rdfs:label xml:lang="en">Subword Tokenization</rdfs:label>
+  <rdfs:comment>Segmentação em unidades menores que palavras</rdfs:comment>
+  <skos:altLabel>BPE</skos:altLabel>
+  <skos:altLabel>Byte Pair Encoding</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Normalizacao">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Normalização</rdfs:label>
+  <rdfs:label xml:lang="en">Normalization</rdfs:label>
+  <rdfs:comment>Padronização de formas textuais</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Lematizacao">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Lematização</rdfs:label>
+  <rdfs:label xml:lang="en">Lemmatization</rdfs:label>
+  <rdfs:comment>Redução de palavras a seus lemas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Stemming">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Stemming</rdfs:label>
+  <rdfs:label xml:lang="en">Stemming</rdfs:label>
+  <rdfs:comment>Redução de palavras a raízes através de regras heurísticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#EtiquetacaoMorfossintatica">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Etiquetação Morfossintática</rdfs:label>
+  <rdfs:label xml:lang="en">Part-of-Speech Tagging</rdfs:label>
+  <rdfs:comment>Atribuição de categorias gramaticais a palavras</rdfs:comment>
+  <skos:altLabel>PoS Tagging</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AnotacaoAtributasMorfologicos">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Anotação de Atributos Morfológicos</rdfs:label>
+  <rdfs:label xml:lang="en">Morphological Features Annotation</rdfs:label>
+  <rdfs:comment>Marcação de características morfológicas (gênero, número, etc.)</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnalisesintaticaConstituencia">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Análise Sintática de Constituência</rdfs:label>
+  <rdfs:label xml:lang="en">Constituency Parsing</rdfs:label>
+  <rdfs:comment>Análise de estrutura sintática usando constituintes</rdfs:comment>
+  <skos:altLabel>Parsing de Constituência</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseSintaticaDependencia">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Análise Sintática de Dependência</rdfs:label>
+  <rdfs:label xml:lang="en">Dependency Parsing</rdfs:label>
+  <rdfs:comment>Análise de estrutura sintática usando relações de dependência</rdfs:comment>
+  <skos:altLabel>Parsing de Dependência</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Chunking">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Chunking</rdfs:label>
+  <rdfs:label xml:lang="en">Shallow Parsing</rdfs:label>
+  <rdfs:comment>Análise sintática parcial com identificação de sintagmas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ReconhecimentoEntidadesNomeadas">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Reconhecimento de Entidades Nomeadas</rdfs:label>
+  <rdfs:label xml:lang="en">Named Entity Recognition</rdfs:label>
+  <rdfs:comment>Identificação de pessoas, locais, organizações</rdfs:comment>
+  <skos:altLabel>NER</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#EtiquetacaoSemantica">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Etiquetação Semântica</rdfs:label>
+  <rdfs:label xml:lang="en">Semantic Role Labeling</rdfs:label>
+  <rdfs:comment>Marcação de papéis semânticos e argumentos</rdfs:comment>
+  <skos:altLabel>SRL</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#ExtracacaoRelacoes">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Extração de Relações</rdfs:label>
+  <rdfs:label xml:lang="en">Relation Extraction</rdfs:label>
+  <rdfs:comment>Identificação de relações entre entidades</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Coreferencia">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Resolução de Correferência</rdfs:label>
+  <rdfs:label xml:lang="en">Coreference Resolution</rdfs:label>
+  <rdfs:comment>Identificação quando pronomes referem-se ao mesmo objeto</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Anafora">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Análise de Anáfora</rdfs:label>
+  <rdfs:label xml:lang="en">Anaphora Resolution</rdfs:label>
+  <rdfs:comment>Resolução de referências anafóricas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Catafora">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Análise de Catáfora</rdfs:label>
+  <rdfs:label xml:lang="en">Cataphora Resolution</rdfs:label>
+  <rdfs:comment>Resolução de referências catafóricas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DissambiguacaoSentidos">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Desambiguação de Sentidos</rdfs:label>
+  <rdfs:label xml:lang="en">Word Sense Disambiguation</rdfs:label>
+  <rdfs:comment>Identifição do sentido correto de uma palavra polissêmica</rdfs:comment>
+  <skos:altLabel>WSD</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#SimilaridadeSemantica">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Cálculo de Similaridade Semântica</rdfs:label>
+  <rdfs:label xml:lang="en">Semantic Similarity Calculation</rdfs:label>
+  <rdfs:comment>Medida de proximidade de significado entre palavras/textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseEsruturaDiscurso">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Análise de Estrutura Discursiva</rdfs:label>
+  <rdfs:label xml:lang="en">Discourse Structure Analysis</rdfs:label>
+  <rdfs:comment>Análise de relações entre partes de um texto</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ReconhecimentofFala">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Reconhecimento Automático de Fala</rdfs:label>
+  <rdfs:label xml:lang="en">Automatic Speech Recognition</rdfs:label>
+  <rdfs:comment>Transcrição de formas de onda de áudio em texto</rdfs:comment>
+  <skos:altLabel>ASR</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#SegmentacaoProsodica">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Segmentação Prosódica</rdfs:label>
+  <rdfs:label xml:lang="en">Prosodic Segmentation</rdfs:label>
+  <rdfs:comment>Segmentação da fala baseada em características prosódicas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ReconhecimentoEmocoes">
+  <rdfs:subClassOf rdf:resource="#TarefaAnalise" />
+  <rdfs:label xml:lang="pt">Reconhecimento de Emoções</rdfs:label>
+  <rdfs:label xml:lang="en">Emotion Recognition</rdfs:label>
+  <rdfs:comment>Identificação de estados emocionais a partir da fala</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TAREFAS - CLASSIFICAÇÃO ============ -->
+<owl:Class rdf:about="#ClassificacaoTextual">
+  <rdfs:subClassOf rdf:resource="#TarefaClassificacao" />
+  <rdfs:label xml:lang="pt">Classificação Textual</rdfs:label>
+  <rdfs:label xml:lang="en">Text Classification</rdfs:label>
+  <rdfs:comment>Atribuição de categorias a documentos ou textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseSentimentos">
+  <rdfs:subClassOf rdf:resource="#TarefaClassificacao" />
+  <rdfs:label xml:lang="pt">Análise de Sentimentos</rdfs:label>
+  <rdfs:label xml:lang="en">Sentiment Analysis</rdfs:label>
+  <rdfs:comment>Classificação de polaridade e opinião em textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseOpinioes">
+  <rdfs:subClassOf rdf:resource="#AnaliseSentimentos" />
+  <rdfs:label xml:lang="pt">Análise de Opiniões</rdfs:label>
+  <rdfs:label xml:lang="en">Opinion Analysis</rdfs:label>
+  <rdfs:comment>Análise granular de opiniões sobre aspectos específicos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseAspectos">
+  <rdfs:subClassOf rdf:resource="#AnaliseSentimentos" />
+  <rdfs:label xml:lang="pt">Análise baseada em Aspectos</rdfs:label>
+  <rdfs:label xml:lang="en">Aspect-Based Sentiment Analysis</rdfs:label>
+  <rdfs:comment>Análise de sentimentos direcionada a aspectos específicos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DeteccaoNoticiassFalsas">
+  <rdfs:subClassOf rdf:resource="#TarefaClassificacao" />
+  <rdfs:label xml:lang="pt">Detecção de Notícias Falsas</rdfs:label>
+  <rdfs:label xml:lang="en">Fake News Detection</rdfs:label>
+  <rdfs:comment>Identificação de conteúdo enganoso ou desinformação</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DeteccaoIronia">
+  <rdfs:subClassOf rdf:resource="#TarefaClassificacao" />
+  <rdfs:label xml:lang="pt">Detecção de Ironia e Sarcasmo</rdfs:label>
+  <rdfs:label xml:lang="en">Irony and Sarcasm Detection</rdfs:label>
+  <rdfs:comment>Identificação de uso de ironia ou sarcasmo</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DeteccaoDiscursoOdio">
+  <rdfs:subClassOf rdf:resource="#TarefaClassificacao" />
+  <rdfs:label xml:lang="pt">Detecção de Discurso de Ódio</rdfs:label>
+  <rdfs:label xml:lang="en">Hate Speech Detection</rdfs:label>
+  <rdfs:comment>Identificação de conteúdo ofensivo ou discriminatório</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TAREFAS - RECUPERAÇÃO ============ -->
+<owl:Class rdf:about="#RecuperacaoInformacao">
+  <rdfs:subClassOf rdf:resource="#TarefaRecuperacao" />
+  <rdfs:label xml:lang="pt">Recuperação de Informação</rdfs:label>
+  <rdfs:label xml:lang="en">Information Retrieval</rdfs:label>
+  <rdfs:comment>Busca e recuperação de documentos relevantes</rdfs:comment>
+  <skos:altLabel>IR</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#ExtracacaoInformacao">
+  <rdfs:subClassOf rdf:resource="#TarefaRecuperacao" />
+  <rdfs:label xml:lang="pt">Extração de Informação</rdfs:label>
+  <rdfs:label xml:lang="en">Information Extraction</rdfs:label>
+  <rdfs:comment>Extração estruturada de informações de textos</rdfs:comment>
+  <skos:altLabel>IE</skos:altLabel>
+</owl:Class>
+
+<!-- ============ TAREFAS - GERAÇÃO ============ -->
+<owl:Class rdf:about="#SinteseFala">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Síntese de Fala</rdfs:label>
+  <rdfs:label xml:lang="en">Text-to-Speech</rdfs:label>
+  <rdfs:comment>Conversão de texto em formas de onda de áudio</rdfs:comment>
+  <skos:altLabel>TTS</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoAutomatica">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Tradução Automática</rdfs:label>
+  <rdfs:label xml:lang="en">Machine Translation</rdfs:label>
+  <rdfs:comment>Tradução automática entre línguas</rdfs:comment>
+  <skos:altLabel>MT</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoDireta">
+  <rdfs:subClassOf rdf:resource="#TradacaoAutomatica" />
+  <rdfs:label xml:lang="pt">Tradução Direta</rdfs:label>
+  <rdfs:label xml:lang="en">Direct Translation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoInterlíngua">
+  <rdfs:subClassOf rdf:resource="#TradacaoAutomatica" />
+  <rdfs:label xml:lang="pt">Tradução por Interlíngua</rdfs:label>
+  <rdfs:label xml:lang="en">Interlingual Translation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoExemplos">
+  <rdfs:subClassOf rdf:resource="#TradacaoAutomatica" />
+  <rdfs:label xml:lang="pt">Tradução por Exemplos</rdfs:label>
+  <rdfs:label xml:lang="en">Example-based Translation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoEstatistica">
+  <rdfs:subClassOf rdf:resource="#TradacaoAutomatica" />
+  <rdfs:label xml:lang="pt">Tradução Estatística</rdfs:label>
+  <rdfs:label xml:lang="en">Statistical Machine Translation</rdfs:label>
+  <skos:altLabel>SMT</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#TradacaoNeural">
+  <rdfs:subClassOf rdf:resource="#TradacaoAutomatica" />
+  <rdfs:label xml:lang="pt">Tradução Neural</rdfs:label>
+  <rdfs:label xml:lang="en">Neural Machine Translation</rdfs:label>
+  <skos:altLabel>NMT</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Sumarizacao">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Sumarização Automática</rdfs:label>
+  <rdfs:label xml:lang="en">Automatic Summarization</rdfs:label>
+  <rdfs:comment>Geração automática de resumos de documentos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SumarizacaoExtrativa">
+  <rdfs:subClassOf rdf:resource="#Sumarizacao" />
+  <rdfs:label xml:lang="pt">Sumarização Extrativa</rdfs:label>
+  <rdfs:label xml:lang="en">Extractive Summarization</rdfs:label>
+  <rdfs:comment>Seleção de frases/trechos do documento original</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SumarizacaoAbstrativa">
+  <rdfs:subClassOf rdf:resource="#Sumarizacao" />
+  <rdfs:label xml:lang="pt">Sumarização Abstractiva</rdfs:label>
+  <rdfs:label xml:lang="en">Abstractive Summarization</rdfs:label>
+  <rdfs:comment>Geração de novo texto resumido</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SimplificacaoTextual">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Simplificação Textual</rdfs:label>
+  <rdfs:label xml:lang="en">Text Simplification</rdfs:label>
+  <rdfs:comment>Adaptação de textos para torná-los mais simples</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ElaboracaoTextual">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Elaboração Textual</rdfs:label>
+  <rdfs:label xml:lang="en">Text Elaboration</rdfs:label>
+  <rdfs:comment>Expansão e enriquecimento de textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorrecaoAutomaticaRedacao">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Correção Automática de Redação</rdfs:label>
+  <rdfs:label xml:lang="en">Automated Essay Scoring</rdfs:label>
+  <rdfs:comment>Detecção e correção de erros em textos escritos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#GeracaoLinguagemNatural">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Geração de Linguagem Natural</rdfs:label>
+  <rdfs:label xml:lang="en">Natural Language Generation</rdfs:label>
+  <rdfs:comment>Geração automática de textos coerentes</rdfs:comment>
+  <skos:altLabel>NLG</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#RespostaPerguntas">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Resposta a Perguntas</rdfs:label>
+  <rdfs:label xml:lang="en">Question Answering</rdfs:label>
+  <rdfs:comment>Sistemas que respondem a perguntas em linguagem natural</rdfs:comment>
+  <skos:altLabel>QA</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Dialogo">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Sistemas de Diálogo</rdfs:label>
+  <rdfs:label xml:lang="en">Dialogue Systems</rdfs:label>
+  <rdfs:comment>Sistemas que mantêm conversas com usuários</rdfs:comment>
+  <skos:altLabel>Conversational AI</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseRedesSociais">
+  <rdfs:subClassOf rdf:resource="#TarefaGeracao" />
+  <rdfs:label xml:lang="pt">Análise de Redes Sociais</rdfs:label>
+  <rdfs:label xml:lang="en">Social Media Analysis</rdfs:label>
+  <rdfs:comment>Processamento de textos de plataformas de redes sociais</rdfs:comment>
+</owl:Class>
+
+<!-- ============ PARADIGMAS DE PLN ============ -->
+<owl:Class rdf:about="#ParadigmaPLN">
+  <rdfs:label xml:lang="pt">Paradigma de PLN</rdfs:label>
+  <rdfs:label xml:lang="en">NLP Paradigm</rdfs:label>
+  <rdfs:comment>Abordagens fundamentais para PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ParadigmaSimbólico">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Paradigma Simbólico</rdfs:label>
+  <rdfs:label xml:lang="en">Symbolic Paradigm</rdfs:label>
+  <rdfs:comment>Representação explícita de conhecimento em formalismos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ParadigmaEstatistico">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Paradigma Estatístico</rdfs:label>
+  <rdfs:label xml:lang="en">Statistical Paradigm</rdfs:label>
+  <rdfs:comment>Aprendizado de modelos probabilísticos a partir de dados</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#EstatisticoShallow">
+  <rdfs:subClassOf rdf:resource="#ParadigmaEstatistico" />
+  <rdfs:label xml:lang="pt">Estatístico - Shallow Learning</rdfs:label>
+  <rdfs:label xml:lang="en">Statistical - Shallow Learning</rdfs:label>
+  <rdfs:comment>Modelos estatísticos tradicionais com features manuais</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ParadigmaNeural">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Paradigma Neural</rdfs:label>
+  <rdfs:label xml:lang="en">Neural Paradigm</rdfs:label>
+  <rdfs:comment>Abordagem neural baseada em redes neurais profundas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DeepLearning">
+  <rdfs:subClassOf rdf:resource="#ParadigmaNeural" />
+  <rdfs:label xml:lang="pt">Deep Learning</rdfs:label>
+  <rdfs:label xml:lang="en">Deep Learning</rdfs:label>
+  <rdfs:comment>Aprendizado usando redes de múltiplas camadas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ParadigmaHibrido">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Paradigma Híbrido</rdfs:label>
+  <rdfs:label xml:lang="en">Hybrid Paradigm</rdfs:label>
+  <rdfs:comment>Combinação de abordagens simbólicas com neurais ou estatísticas</rdfs:comment>
+</owl:Class>
+
+<!-- ============ ARQUITETURAS NEURAIS ============ -->
+<owl:Class rdf:about="#ArquiteturaNeuraf">
+  <rdfs:label xml:lang="pt">Arquitetura Neural</rdfs:label>
+  <rdfs:label xml:lang="en">Neural Architecture</rdfs:label>
+  <rdfs:comment>Diferentes arquiteturas de redes neurais para PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#RedeNeuralProfunda">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Rede Neural Profunda</rdfs:label>
+  <rdfs:label xml:lang="en">Deep Neural Network</rdfs:label>
+  <rdfs:comment>Rede neural com múltiplas camadas</rdfs:comment>
+  <skos:altLabel>DNN</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#RedeNeuralRecorrente">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Rede Neural Recorrente</rdfs:label>
+  <rdfs:label xml:lang="en">Recurrent Neural Network</rdfs:label>
+  <rdfs:comment>Rede neural com conexões cíclicas para processar sequências</rdfs:comment>
+  <skos:altLabel>RNN</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#LSTM">
+  <rdfs:subClassOf rdf:resource="#RedeNeuralRecorrente" />
+  <rdfs:label xml:lang="pt">LSTM</rdfs:label>
+  <rdfs:label xml:lang="en">LSTM</rdfs:label>
+  <rdfs:comment>Long Short-Term Memory: arquitetura de RNN com memória de longo prazo</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#GRU">
+  <rdfs:subClassOf rdf:resource="#RedeNeuralRecorrente" />
+  <rdfs:label xml:lang="pt">GRU</rdfs:label>
+  <rdfs:label xml:lang="en">GRU</rdfs:label>
+  <rdfs:comment>Gated Recurrent Unit: variação simplificada de LSTM</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#RedeNeuralConvolucional">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Rede Neural Convolucional</rdfs:label>
+  <rdfs:label xml:lang="en">Convolutional Neural Network</rdfs:label>
+  <rdfs:comment>Rede neural especializada em processar dados com estrutura espacial</rdfs:comment>
+  <skos:altLabel>CNN</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Transformer">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Transformer</rdfs:label>
+  <rdfs:label xml:lang="en">Transformer</rdfs:label>
+  <rdfs:comment>Arquitetura neural baseada em mecanismo de atenção</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#MecanismoAtencao">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Mecanismo de Atenção</rdfs:label>
+  <rdfs:label xml:lang="en">Attention Mechanism</rdfs:label>
+  <rdfs:comment>Permite que modelo se concentre em partes relevantes da entrada</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Seq2Seq">
+  <rdfs:subClassOf rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">Sequence-to-Sequence</rdfs:label>
+  <rdfs:label xml:lang="en">Sequence-to-Sequence</rdfs:label>
+  <rdfs:comment>Arquitetura que mapeia uma sequência para outra</rdfs:comment>
+</owl:Class>
+
+<!-- ============ MODELOS PRÉ-TREINADOS ============ -->
+<owl:Class rdf:about="#ModeloPretreinado">
+  <rdfs:label xml:lang="pt">Modelo Pré-treinado</rdfs:label>
+  <rdfs:label xml:lang="en">Pre-trained Model</rdfs:label>
+  <rdfs:comment>Modelos treinados em grandes corpora e prontos para fine-tuning</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ModeloLinguagem">
+  <rdfs:subClassOf rdf:resource="#ModeloPretreinado" />
+  <rdfs:label xml:lang="pt">Modelo de Linguagem</rdfs:label>
+  <rdfs:label xml:lang="en">Language Model</rdfs:label>
+  <rdfs:comment>Modelo que prediz a próxima palavra em sequência</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ModeloLinguagemProbabilistico">
+  <rdfs:subClassOf rdf:resource="#ModeloLinguagem" />
+  <rdfs:label xml:lang="pt">Modelo de Linguagem Probabilístico</rdfs:label>
+  <rdfs:label xml:lang="en">Probabilistic Language Model</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#ModeloLinguagemNeural">
+  <rdfs:subClassOf rdf:resource="#ModeloLinguagem" />
+  <rdfs:label xml:lang="pt">Modelo de Linguagem Neural</rdfs:label>
+  <rdfs:label xml:lang="en">Neural Language Model</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#LLM">
+  <rdfs:subClassOf rdf:resource="#ModeloLinguagem" />
+  <rdfs:label xml:lang="pt">Modelo de Linguagem de Grande Escala</rdfs:label>
+  <rdfs:label xml:lang="en">Large Language Model</rdfs:label>
+  <rdfs:comment>Modelo de linguagem com bilhões de parâmetros</rdfs:comment>
+  <skos:altLabel>LLM</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#BERT">
+  <rdfs:subClassOf rdf:resource="#ModeloPretreinado" />
+  <rdfs:label xml:lang="pt">BERT</rdfs:label>
+  <rdfs:label xml:lang="en">BERT</rdfs:label>
+  <rdfs:comment>Bidirectional Encoder Representations from Transformers</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ELMo">
+  <rdfs:subClassOf rdf:resource="#ModeloPretreinado" />
+  <rdfs:label xml:lang="pt">ELMo</rdfs:label>
+  <rdfs:label xml:lang="en">ELMo</rdfs:label>
+  <rdfs:comment>Embeddings from Language Models: representações contextuais</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#GPT">
+  <rdfs:subClassOf rdf:resource="#LLM" />
+  <rdfs:label xml:lang="pt">GPT</rdfs:label>
+  <rdfs:label xml:lang="en">GPT</rdfs:label>
+  <rdfs:comment>Generative Pre-trained Transformer</rdfs:comment>
+</owl:Class>
+
+<!-- ============ MODELOS DE REPRESENTAÇÃO ============ -->
+<owl:Class rdf:about="#ModeloRepresentacao">
+  <rdfs:label xml:lang="pt">Modelo de Representação</rdfs:label>
+  <rdfs:label xml:lang="en">Representation Model</rdfs:label>
+  <rdfs:comment>Modelos para gerar representações vetoriais de palavras/textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Word2Vec">
+  <rdfs:subClassOf rdf:resource="#ModeloRepresentacao" />
+  <rdfs:label xml:lang="pt">Word2Vec</rdfs:label>
+  <rdfs:label xml:lang="en">Word2Vec</rdfs:label>
+  <rdfs:comment>Modelo para aprender representações vetoriais de palavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SkipGram">
+  <rdfs:subClassOf rdf:resource="#Word2Vec" />
+  <rdfs:label xml:lang="pt">Skip-gram</rdfs:label>
+  <rdfs:label xml:lang="en">Skip-gram</rdfs:label>
+  <rdfs:comment>Variante de Word2Vec que prediz contexto a partir de palavra</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CBOW">
+  <rdfs:subClassOf rdf:resource="#Word2Vec" />
+  <rdfs:label xml:lang="pt">CBOW</rdfs:label>
+  <rdfs:label xml:lang="en">Continuous Bag of Words</rdfs:label>
+  <rdfs:comment>Variante de Word2Vec que prediz palavra a partir de contexto</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#FastText">
+  <rdfs:subClassOf rdf:resource="#ModeloRepresentacao" />
+  <rdfs:label xml:lang="pt">FastText</rdfs:label>
+  <rdfs:label xml:lang="en">FastText</rdfs:label>
+  <rdfs:comment>Extensão do Word2Vec que considera subpalavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#GloVe">
+  <rdfs:subClassOf rdf:resource="#ModeloRepresentacao" />
+  <rdfs:label xml:lang="pt">GloVe</rdfs:label>
+  <rdfs:label xml:lang="en">GloVe</rdfs:label>
+  <rdfs:comment>Global Vectors for Word Representation</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TÉCNICAS DE APRENDIZADO ============ -->
+<owl:Class rdf:about="#TecnicaAprendizado">
+  <rdfs:label xml:lang="pt">Técnica de Aprendizado</rdfs:label>
+  <rdfs:label xml:lang="en">Learning Technique</rdfs:label>
+  <rdfs:comment>Métodos de aprendizado para treinar modelos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AprendizadoPorTransferencia">
+  <rdfs:subClassOf rdf:resource="#TecnicaAprendizado" />
+  <rdfs:label xml:lang="pt">Aprendizado por Transferência</rdfs:label>
+  <rdfs:label xml:lang="en">Transfer Learning</rdfs:label>
+  <rdfs:comment>Uso de conhecimento adquirido em uma tarefa para outra</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AjusteFinno">
+  <rdfs:subClassOf rdf:resource="#AprendizadoPorTransferencia" />
+  <rdfs:label xml:lang="pt">Ajuste Fino</rdfs:label>
+  <rdfs:label xml:lang="en">Fine-tuning</rdfs:label>
+  <rdfs:comment>Adaptação de modelo pré-treinado para tarefa específica</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#FewShotLearning">
+  <rdfs:subClassOf rdf:resource="#TecnicaAprendizado" />
+  <rdfs:label xml:lang="pt">Few-shot Learning</rdfs:label>
+  <rdfs:label xml:lang="en">Few-shot Learning</rdfs:label>
+  <rdfs:comment>Aprendizado com poucos exemplos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ZeroShotLearning">
+  <rdfs:subClassOf rdf:resource="#TecnicaAprendizado" />
+  <rdfs:label xml:lang="pt">Zero-shot Learning</rdfs:label>
+  <rdfs:label xml:lang="en">Zero-shot Learning</rdfs:label>
+  <rdfs:comment>Aprendizado sem exemplos específicos da tarefa</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#PromptEngineering">
+  <rdfs:subClassOf rdf:resource="#TecnicaAprendizado" />
+  <rdfs:label xml:lang="pt">Prompt Engineering</rdfs:label>
+  <rdfs:label xml:lang="en">Prompt Engineering</rdfs:label>
+  <rdfs:comment>Design de instruções para otimizar desempenho de LLMs</rdfs:comment>
+</owl:Class>
+
+<!-- ============ TÉCNICAS DE PROCESSAMENTO ============ -->
+<owl:Class rdf:about="#TecnicaProcessamento">
+  <rdfs:label xml:lang="pt">Técnica de Processamento</rdfs:label>
+  <rdfs:label xml:lang="en">Processing Technique</rdfs:label>
+  <rdfs:comment>Métodos computacionais para processamento de linguagem</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TFIDF">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">TF-IDF</rdfs:label>
+  <rdfs:label xml:lang="en">TF-IDF</rdfs:label>
+  <rdfs:comment>Métrica que pondera termos por frequência e raridade</rdfs:comment>
+  <skos:altLabel>Term Frequency–Inverse Document Frequency</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#PMI">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">PMI</rdfs:label>
+  <rdfs:label xml:lang="en">PMI</rdfs:label>
+  <rdfs:comment>Pointwise Mutual Information: medida de associação entre palavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#LSA">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">LSA</rdfs:label>
+  <rdfs:label xml:lang="en">LSA</rdfs:label>
+  <rdfs:comment>Latent Semantic Analysis: redução de dimensionalidade</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#LDA">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">LDA</rdfs:label>
+  <rdfs:label xml:lang="en">LDA</rdfs:label>
+  <rdfs:comment>Latent Dirichlet Allocation: modelagem de tópicos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ModeloRST">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">RST</rdfs:label>
+  <rdfs:label xml:lang="en">RST</rdfs:label>
+  <rdfs:comment>Rhetorical Structure Theory: análise de estrutura discursiva</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TeoriaCST">
+  <rdfs:subClassOf rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">CST</rdfs:label>
+  <rdfs:label xml:lang="en">CST</rdfs:label>
+  <rdfs:comment>Cross-document Structure Theory: estrutura multi-documento</rdfs:comment>
+</owl:Class>
+
+<!-- ============ MODELOS PROBABILÍSTICOS ============ -->
+<owl:Class rdf:about="#ModeloProbabilistico">
+  <rdfs:label xml:lang="pt">Modelo Probabilístico</rdfs:label>
+  <rdfs:label xml:lang="en">Probabilistic Model</rdfs:label>
+  <rdfs:comment>Modelos baseados em probabilidades e distribuições estatísticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#HiddenMarkovModel">
+  <rdfs:subClassOf rdf:resource="#ModeloProbabilistico" />
+  <rdfs:label xml:lang="pt">Hidden Markov Model</rdfs:label>
+  <rdfs:label xml:lang="en">Hidden Markov Model</rdfs:label>
+  <rdfs:comment>Modelo probabilístico para sequências</rdfs:comment>
+  <skos:altLabel>HMM</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#ConditionalRandomField">
+  <rdfs:subClassOf rdf:resource="#ModeloProbabilistico" />
+  <rdfs:label xml:lang="pt">Conditional Random Field</rdfs:label>
+  <rdfs:label xml:lang="en">Conditional Random Field</rdfs:label>
+  <rdfs:comment>Modelo para etiquetar sequências</rdfs:comment>
+  <skos:altLabel>CRF</skos:altLabel>
+</owl:Class>
+
+<!-- ============ RECURSOS E CORPORA ============ -->
+<owl:Class rdf:about="#Recurso">
+  <rdfs:label xml:lang="pt">Recurso</rdfs:label>
+  <rdfs:label xml:lang="en">Resource</rdfs:label>
+  <rdfs:comment>Recursos disponíveis para PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Corpus">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Corpus</rdfs:label>
+  <rdfs:label xml:lang="en">Corpus</rdfs:label>
+  <rdfs:comment>Coleção de textos para análise linguística</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Dataset">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Dataset</rdfs:label>
+  <rdfs:label xml:lang="en">Dataset</rdfs:label>
+  <rdfs:comment>Coleção de dados para treinamento e teste</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorpusPadraoOuro">
+  <rdfs:subClassOf rdf:resource="#Corpus" />
+  <rdfs:label xml:lang="pt">Corpus Padrão Ouro</rdfs:label>
+  <rdfs:label xml:lang="en">Gold Standard Corpus</rdfs:label>
+  <rdfs:comment>Corpus com anotações verificadas manualmente</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Treebank">
+  <rdfs:subClassOf rdf:resource="#Corpus" />
+  <rdfs:label xml:lang="pt">Treebank</rdfs:label>
+  <rdfs:label xml:lang="en">Treebank</rdfs:label>
+  <rdfs:comment>Corpus anotado com estruturas sintáticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorpusParalelo">
+  <rdfs:subClassOf rdf:resource="#Corpus" />
+  <rdfs:label xml:lang="pt">Corpus Paralelo</rdfs:label>
+  <rdfs:label xml:lang="en">Parallel Corpus</rdfs:label>
+  <rdfs:comment>Corpus com textos em dois idiomas alinhados</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorpusComparavel">
+  <rdfs:subClassOf rdf:resource="#Corpus" />
+  <rdfs:label xml:lang="pt">Corpus Comparável</rdfs:label>
+  <rdfs:label xml:lang="en">Comparable Corpus</rdfs:label>
+  <rdfs:comment>Corpora em múltiplas línguas sobre tópicos similares</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#BasConhecimentoSemantico">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Base de Conhecimento Semântico</rdfs:label>
+  <rdfs:label xml:lang="en">Semantic Knowledge Base</rdfs:label>
+  <rdfs:comment>Estrutura representando conhecimento e conceitos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#WordNet">
+  <rdfs:subClassOf rdf:resource="#BasConhecimentoSemantico" />
+  <rdfs:label xml:lang="pt">WordNet</rdfs:label>
+  <rdfs:label xml:lang="en">WordNet</rdfs:label>
+  <rdfs:comment>Rede semântica de palavras interconectadas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#FrameNet">
+  <rdfs:subClassOf rdf:resource="#BasConhecimentoSemantico" />
+  <rdfs:label xml:lang="pt">FrameNet</rdfs:label>
+  <rdfs:label xml:lang="en">FrameNet</rdfs:label>
+  <rdfs:comment>Base de conhecimento com frames semânticos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ConceptNet">
+  <rdfs:subClassOf rdf:resource="#BasConhecimentoSemantico" />
+  <rdfs:label xml:lang="pt">ConceptNet</rdfs:label>
+  <rdfs:label xml:lang="en">ConceptNet</rdfs:label>
+  <rdfs:comment>Rede de conceitos e relações semânticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#UniversalDependencies">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Universal Dependencies</rdfs:label>
+  <rdfs:label xml:lang="en">Universal Dependencies</rdfs:label>
+  <rdfs:comment>Projeto multilíngue de anotação de dependências sintáticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Lexico">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Léxico</rdfs:label>
+  <rdfs:label xml:lang="en">Lexicon</rdfs:label>
+  <rdfs:comment>Lista de palavras com informações linguísticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Dicionario">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Dicionário</rdfs:label>
+  <rdfs:label xml:lang="en">Dictionary</rdfs:label>
+  <rdfs:comment>Recurso com definições e informações sobre palavras</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Ontologia">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Ontologia</rdfs:label>
+  <rdfs:label xml:lang="en">Ontology</rdfs:label>
+  <rdfs:comment>Representação formal de conceitos em um domínio</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Taxonomia">
+  <rdfs:subClassOf rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">Taxonomia</rdfs:label>
+  <rdfs:label xml:lang="en">Taxonomy</rdfs:label>
+  <rdfs:comment>Classificação hierárquica de conceitos</rdfs:comment>
+</owl:Class>
+
+<!-- ============ APLICAÇÕES DE PLN ============ -->
+<owl:Class rdf:about="#AplicacaoPLN">
+  <rdfs:label xml:lang="pt">Aplicação PLN</rdfs:label>
+  <rdfs:label xml:lang="en">NLP Application</rdfs:label>
+  <rdfs:comment>Aplicações práticas de PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Chatbot">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Chatbot</rdfs:label>
+  <rdfs:label xml:lang="en">Chatbot</rdfs:label>
+  <rdfs:comment>Sistema de conversação automática</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AssistenteVirtual">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Assistente Virtual</rdfs:label>
+  <rdfs:label xml:lang="en">Virtual Assistant</rdfs:label>
+  <rdfs:comment>Sistema que realiza tarefas solicitadas em linguagem natural</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorretorOrtoGrafico">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Corretor Ortográfico</rdfs:label>
+  <rdfs:label xml:lang="en">Spell Checker</rdfs:label>
+  <rdfs:comment>Ferramenta que identifica e corrige erros de escrita</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#CorretorGramatical">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Corretor Gramatical</rdfs:label>
+  <rdfs:label xml:lang="en">Grammar Checker</rdfs:label>
+  <rdfs:comment>Sistema que detecta e corrige erros gramaticais</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TradutorAutomatico">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Tradutor Automático</rdfs:label>
+  <rdfs:label xml:lang="en">Machine Translator</rdfs:label>
+  <rdfs:comment>Sistema de tradução entre línguas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SumarizadorAutomatico">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Sumarizador Automático</rdfs:label>
+  <rdfs:label xml:lang="en">Automatic Summarizer</rdfs:label>
+  <rdfs:comment>Sistema que gera resumos de documentos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SistemaRecomendacao">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Sistema de Recomendação</rdfs:label>
+  <rdfs:label xml:lang="en">Recommendation System</rdfs:label>
+  <rdfs:comment>Aplicação que recomenda itens baseado em análise de texto</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#BuscadorWeb">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Buscador Web</rdfs:label>
+  <rdfs:label xml:lang="en">Search Engine</rdfs:label>
+  <rdfs:comment>Sistema de recuperação de informação na web</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SistemaRespostaPerguntas">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Sistema de Resposta a Perguntas</rdfs:label>
+  <rdfs:label xml:lang="en">Question Answering System</rdfs:label>
+  <rdfs:comment>Aplicação que responde perguntas em linguagem natural</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AssistenteEscrita">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Assistente de Escrita</rdfs:label>
+  <rdfs:label xml:lang="en">Writing Assistant</rdfs:label>
+  <rdfs:comment>Ferramenta que auxilia o processo de escrita</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ClassificadorDocumentos">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Classificador de Documentos</rdfs:label>
+  <rdfs:label xml:lang="en">Document Classifier</rdfs:label>
+  <rdfs:comment>Sistema que categoriza documentos automaticamente</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#DetectorFakeNews">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Detector de Fake News</rdfs:label>
+  <rdfs:label xml:lang="en">Fake News Detector</rdfs:label>
+  <rdfs:comment>Aplicação que identifica desinformação</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnalisadorSentimentos">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Analisador de Sentimentos</rdfs:label>
+  <rdfs:label xml:lang="en">Sentiment Analyzer</rdfs:label>
+  <rdfs:comment>Aplicação que analisa opiniões e emoções em textos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ReconhecedorEntidades">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Reconhecedor de Entidades</rdfs:label>
+  <rdfs:label xml:lang="en">Entity Recognizer</rdfs:label>
+  <rdfs:comment>Sistema que identifica pessoas, locais, organizações</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#SistemaRecuperacaoLegislacao">
+  <rdfs:subClassOf rdf:resource="#AplicacaoPLN" />
+  <rdfs:label xml:lang="pt">Sistema de Recuperação de Legislação</rdfs:label>
+  <rdfs:label xml:lang="en">Legal Document Retrieval System</rdfs:label>
+  <rdfs:comment>Aplicação que recupera documentos legais relevantes</rdfs:comment>
+</owl:Class>
+
+<!-- ============ MÉTRICAS DE AVALIAÇÃO ============ -->
+<owl:Class rdf:about="#Avaliacao">
+  <rdfs:label xml:lang="pt">Avaliação</rdfs:label>
+  <rdfs:label xml:lang="en">Evaluation</rdfs:label>
+  <rdfs:comment>Métricas e métodos de avaliação de sistemas PLN</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#MetricaAutomatic">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Métrica Automática</rdfs:label>
+  <rdfs:label xml:lang="en">Automatic Metric</rdfs:label>
+  <rdfs:comment>Métricas computadas automaticamente sem intervenção humana</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Precisao">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">Precisão</rdfs:label>
+  <rdfs:label xml:lang="en">Precision</rdfs:label>
+  <rdfs:comment>Proporção de predições positivas corretas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Recall">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">Recall</rdfs:label>
+  <rdfs:label xml:lang="en">Recall</rdfs:label>
+  <rdfs:comment>Proporção de casos positivos identificados</rdfs:comment>
+  <skos:altLabel>Cobertura</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#F1Score">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">F1-Score</rdfs:label>
+  <rdfs:label xml:lang="en">F1-Score</rdfs:label>
+  <rdfs:comment>Média harmônica entre precisão e recall</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Acuracia">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">Acurácia</rdfs:label>
+  <rdfs:label xml:lang="en">Accuracy</rdfs:label>
+  <rdfs:comment>Proporção de predições corretas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#BLEU">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">BLEU</rdfs:label>
+  <rdfs:label xml:lang="en">BLEU</rdfs:label>
+  <rdfs:comment>Bilingual Evaluation Understudy: para tradução automática</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#METEOR">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">METEOR</rdfs:label>
+  <rdfs:label xml:lang="en">METEOR</rdfs:label>
+  <rdfs:comment>Mérica para avaliação de tradução automática</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ROUGE">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">ROUGE</rdfs:label>
+  <rdfs:label xml:lang="en">ROUGE</rdfs:label>
+  <rdfs:comment>Recall-Oriented Understudy for Gisting Evaluation: para sumarização</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#MetricaManual">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Métrica Manual</rdfs:label>
+  <rdfs:label xml:lang="en">Manual Metric</rdfs:label>
+  <rdfs:comment>Métricas envolvendo avaliação humana</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ConcordanciaAnotadores">
+  <rdfs:subClassOf rdf:resource="#MetricaManual" />
+  <rdfs:label xml:lang="pt">Concordância Entre Anotadores</rdfs:label>
+  <rdfs:label xml:lang="en">Inter-annotator Agreement</rdfs:label>
+  <rdfs:comment>Medida de acordo entre anotadores humanos</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#KappaCoh">
+  <rdfs:subClassOf rdf:resource="#MetricaManual" />
+  <rdfs:label xml:lang="pt">Kappa de Cohen</rdfs:label>
+  <rdfs:label xml:lang="en">Cohen's Kappa</rdfs:label>
+  <rdfs:comment>Estatística que mede concordância entre anotadores</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AvaliacaoIntris">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Avaliação Intrínseca</rdfs:label>
+  <rdfs:label xml:lang="en">Intrinsic Evaluation</rdfs:label>
+  <rdfs:comment>Avaliação baseada em métricas automáticas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AvaliacaoExtrin">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Avaliação Extrínseca</rdfs:label>
+  <rdfs:label xml:lang="en">Extrinsic Evaluation</rdfs:label>
+  <rdfs:comment>Avaliação baseada no desempenho em tarefas reais</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#TesteSignificannciEstatistica">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Teste de Significância Estatística</rdfs:label>
+  <rdfs:label xml:lang="en">Statistical Significance Test</rdfs:label>
+  <rdfs:comment>Teste para verificar se diferenças são estatisticamente significativas</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#ValidacaoCruzada">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Validação Cruzada</rdfs:label>
+  <rdfs:label xml:lang="en">Cross-validation</rdfs:label>
+  <rdfs:comment>Técnica que divide dados em múltiplos folds para avaliação</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AnaliseErro">
+  <rdfs:subClassOf rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">Análise de Erro</rdfs:label>
+  <rdfs:label xml:lang="en">Error Analysis</rdfs:label>
+  <rdfs:comment>Análise qualitativa dos erros cometidos pelo sistema</rdfs:comment>
+</owl:Class>
+
+<!-- ============ PROPRIEDADES OBJECT ============ -->
+<owl:ObjectProperty rdf:about="#pertenceAoNivel">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#NivelLinguistico" />
+  <rdfs:label xml:lang="pt">pertence ao nível</rdfs:label>
+  <rdfs:label xml:lang="en">belongs to level</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usaModelo">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#ModeloPretreinado" />
+  <rdfs:label xml:lang="pt">usa modelo</rdfs:label>
+  <rdfs:label xml:lang="en">uses model</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usaRecurso">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#Recurso" />
+  <rdfs:label xml:lang="pt">usa recurso</rdfs:label>
+  <rdfs:label xml:lang="en">uses resource</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#requerTarefa">
+  <rdfs:domain rdf:resource="#AplicacaoPLN" />
+  <rdfs:range rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">requer tarefa</rdfs:label>
+  <rdfs:label xml:lang="en">requires task</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usaArquitetura">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#ArquiteturaNeuraf" />
+  <rdfs:label xml:lang="pt">usa arquitetura neural</rdfs:label>
+  <rdfs:label xml:lang="en">uses neural architecture</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usaTecnica">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#TecnicaProcessamento" />
+  <rdfs:label xml:lang="pt">usa técnica</rdfs:label>
+  <rdfs:label xml:lang="en">uses technique</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usaParadigma">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">usa paradigma</rdfs:label>
+  <rdfs:label xml:lang="en">uses paradigm</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#avaliaBorPor">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#Avaliacao" />
+  <rdfs:label xml:lang="pt">avaliada por</rdfs:label>
+  <rdfs:label xml:lang="en">evaluated by</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#temComponente">
+  <rdfs:domain rdf:resource="#TarefaPLN" />
+  <rdfs:range rdf:resource="#TarefaPLN" />
+  <rdfs:label xml:lang="pt">tem componente</rdfs:label>
+  <rdfs:label xml:lang="en">has component</rdfs:label>
+</owl:ObjectProperty>
+
+</rdf:RDF>

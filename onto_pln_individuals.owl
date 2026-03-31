@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF 
+  xmlns="http://www.ufrgs.br/ontologies/onto_pln_individuals.owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:pln="http://www.ufrgs.br/ontologies/onto_pln.owl#"
+  xmlns:plni="http://www.ufrgs.br/ontologies/onto_pln_individuals.owl#"
+  xml:base="http://www.ufrgs.br/ontologies/onto_pln_individuals.owl#">
+
+<owl:Ontology rdf:about="http://www.ufrgs.br/ontologies/onto_pln_individuals.owl">
+  <rdfs:label xml:lang="pt">Instâncias da Ontologia de PLN - Versão 3</rdfs:label>
+  <rdfs:label xml:lang="en">Individuals for NLP Ontology - Version 3</rdfs:label>
+  <rdfs:comment>Exemplos concretos de indivíduos para as classes da ontologia de PLN</rdfs:comment>
+  <owl:imports rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl"/>
+  <owl:versionInfo>3.0-individuals</owl:versionInfo>
+</owl:Ontology>
+
+<!-- ============ LINGUAGENS E IDIOMAS ============ -->
+<rdf:Description rdf:about="#PortuguesLinguagem">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Linguagem"/>
+  <rdfs:label xml:lang="pt">Português</rdfs:label>
+  <rdfs:label xml:lang="en">Portuguese</rdfs:label>
+  <rdfs:comment>Língua portuguesa, principal idioma de funcionamento desta ontologia</rdfs:comment>
+  <skos:notation>pt</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#InglesLinguagem">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Linguagem"/>
+  <rdfs:label xml:lang="pt">Inglês</rdfs:label>
+  <rdfs:label xml:lang="en">English</rdfs:label>
+  <rdfs:comment>Língua inglesa, amplamente utilizada em PLN</rdfs:comment>
+  <skos:notation>en</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#EspanholLinguagem">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Linguagem"/>
+  <rdfs:label xml:lang="pt">Espanhol</rdfs:label>
+  <rdfs:label xml:lang="en">Spanish</rdfs:label>
+  <rdfs:comment>Língua espanhola</rdfs:comment>
+  <skos:notation>es</skos:notation>
+</rdf:Description>
+
+<!-- ============ TAREFAS DE PLN ============ -->
+<rdf:Description rdf:about="#TarefaAnaliseSintatiaPratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#TarefaAnalise"/>
+  <rdfs:label xml:lang="pt">Análise Sintática de "O gato subiu na árvore"</rdfs:label>
+  <rdfs:label xml:lang="en">Parsing of "The cat climbed the tree"</rdfs:label>
+  <rdfs:comment>Exemplo de tarefa de análise sintática em texto real</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#TarefaClassificacaoSentimentoPratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#ClassificacaoTextual"/>
+  <rdfs:label xml:lang="pt">Classificação de Sentimento: Análise de Review</rdfs:label>
+  <rdfs:label xml:lang="en">Sentiment Classification: Product Review Analysis</rdfs:label>
+  <rdfs:comment>Exemplo de tarefa de classificação de sentimento em reviews de produtos</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#TarefaExtracacaoentidadesPratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#TarefaExtracao"/>
+  <rdfs:label xml:lang="pt">Extração de Entidades Nomeadas</rdfs:label>
+  <rdfs:label xml:lang="en">Named Entity Recognition Task</rdfs:label>
+  <rdfs:comment>Exemplo de tarefa de extração de entidades em textos jornalísticos</rdfs:comment>
+</rdf:Description>
+
+<!-- ============ MODELOS E ALGORITMOS ============ -->
+<rdf:Description rdf:about="#ModeloWord2VecPratico">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Word2Vec"/>
+  <rdfs:label xml:lang="pt">Modelo Word2Vec Treinado</rdfs:label>
+  <rdfs:label xml:lang="en">Trained Word2Vec Model</rdfs:label>
+  <rdfs:comment>Instância de um modelo Word2Vec pré-treinado em corpus português</rdfs:comment>
+  <skos:notation>w2v_pt_model_v1</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ModeloBERTPratico">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#BERT"/>
+  <rdfs:label xml:lang="pt">BERT Multilíngue Pré-treinado</rdfs:label>
+  <rdfs:label xml:lang="en">Multilingual BERT Pre-trained</rdfs:label>
+  <rdfs:comment>Modelo BERT pré-treinado com suporte para múltiplos idiomas incluindo português</rdfs:comment>
+  <skos:notation>bert_multilingual</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#TransformerArchitecturePratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Transformer"/>
+  <rdfs:label xml:lang="pt">Arquitetura Transformer Padrão</rdfs:label>
+  <rdfs:label xml:lang="en">Standard Transformer Architecture</rdfs:label>
+  <rdfs:comment>Implementação padrão da arquitetura Transformer para PLN</rdfs:comment>
+</rdf:Description>
+
+<!-- ============ RECURSOS E BASES DE DADOS ============ -->
+<rdf:Description rdf:about="#CorpusPTBR">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Corpus"/>
+  <rdfs:label xml:lang="pt">Corpus de Português Brasileiro</rdfs:label>
+  <rdfs:label xml:lang="en">Brazilian Portuguese Corpus</rdfs:label>
+  <rdfs:comment>Corpus extenso de textos em português brasileiro para treinamento e avaliação</rdfs:comment>
+  <skos:notation>corpus_ptbr_2024</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#WordnetPortugues">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#WordNet"/>
+  <rdfs:label xml:lang="pt">WordNet - Versão Portuguesa</rdfs:label>
+  <rdfs:label xml:lang="en">WordNet - Portuguese Version</rdfs:label>
+  <rdfs:comment>Base de dados léxical em português com informações semânticas</rdfs:comment>
+  <skos:notation>wordnet_pt</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#DBpediaPortugues">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#BaseConhecimentoSemantico"/>
+  <rdfs:label xml:lang="pt">DBpedia em Português</rdfs:label>
+  <rdfs:label xml:lang="en">DBpedia Portuguese</rdfs:label>
+  <rdfs:comment>Extração estruturada da Wikipédia em português contendo conhecimento semântico</rdfs:comment>
+  <skos:notation>dbpedia_pt</skos:notation>
+</rdf:Description>
+
+<!-- ============ APLICAÇÕES PRÁTICAS ============ -->
+<rdf:Description rdf:about="#AnalisadorSentimentosRedes">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#AnalisadorSentimentos"/>
+  <rdfs:label xml:lang="pt">Sistema de Análise de Sentimentos em Redes Sociais</rdfs:label>
+  <rdfs:label xml:lang="en">Social Media Sentiment Analysis System</rdfs:label>
+  <rdfs:comment>Aplicação que analisa sentimentos em postagens de redes sociais em tempo real</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ChatbotAtendimento">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Chatbot"/>
+  <rdfs:label xml:lang="pt">Chatbot de Atendimento ao Cliente</rdfs:label>
+  <rdfs:label xml:lang="en">Customer Support Chatbot</rdfs:label>
+  <rdfs:comment>Sistema de conversação automática para suporte ao cliente em português</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#TradutorAutomatico">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#AplicacaoPLN"/>
+  <rdfs:label xml:lang="pt">Tradutor Automático PT-EN</rdfs:label>
+  <rdfs:label xml:lang="en">Automatic Translator PT-EN</rdfs:label>
+  <rdfs:comment>Sistema de tradução automática entre português e inglês</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#AssistenteEscritaPratico">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#AssistenteEscrita"/>
+  <rdfs:label xml:lang="pt">Assistente de Escrita Inteligente</rdfs:label>
+  <rdfs:label xml:lang="en">Intelligent Writing Assistant</rdfs:label>
+  <rdfs:comment>Ferramenta que auxilia na redação corrigindo gramática e sugerindo melhorias</rdfs:comment>
+</rdf:Description>
+
+<!-- ============ TÉCNICAS E PARADIGMAS ============ -->
+<rdf:Description rdf:about="#AprendizadoSupervisionado">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#ParadigmaAprendizado"/>
+  <rdfs:label xml:lang="pt">Aprendizado Supervisionado</rdfs:label>
+  <rdfs:label xml:lang="en">Supervised Learning</rdfs:label>
+  <rdfs:comment>Paradigma onde o modelo aprende com exemplos rotulados</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#DeepLearningPratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#TecnicaAprendizado"/>
+  <rdfs:label xml:lang="pt">Deep Learning em PLN</rdfs:label>
+  <rdfs:label xml:lang="en">Deep Learning for NLP</rdfs:label>
+  <rdfs:comment>Técnica que utiliza redes neurais profundas para processamento de linguagem natural</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#TransferLearningPratica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#AprendizadoPorTransferencia"/>
+  <rdfs:label xml:lang="pt">Transfer Learning com Modelos Pré-treinados</rdfs:label>
+  <rdfs:label xml:lang="en">Transfer Learning with Pre-trained Models</rdfs:label>
+  <rdfs:comment>Uso de modelos pré-treinados em grandes corpora para tarefas específicas</rdfs:comment>
+</rdf:Description>
+
+<!-- ============ MÉTRICAS DE AVALIAÇÃO ============ -->
+<rdf:Description rdf:about="#Precisao_ClassificacaoSentimento">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Precisao"/>
+  <rdfs:label xml:lang="pt">Precisão em Classificação de Sentimento</rdfs:label>
+  <rdfs:label xml:lang="en">Precision in Sentiment Classification</rdfs:label>
+  <rdfs:comment>Métrica de precisão aplicada ao classificador de sentimentos</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Recall_ExtracacaoEntidades">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Recall"/>
+  <rdfs:label xml:lang="pt">Recall em Extração de Entidades</rdfs:label>
+  <rdfs:label xml:lang="en">Recall in Named Entity Recognition</rdfs:label>
+  <rdfs:comment>Métrica de recall para avaliar extração de entidades nomeadas</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#BLEU_Traducao">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#BLEU"/>
+  <rdfs:label xml:lang="pt">Métrica BLEU para Tradução</rdfs:label>
+  <rdfs:label xml:lang="en">BLEU Score for Translation</rdfs:label>
+  <rdfs:comment>Métrica de avaliação automática para sistemas de tradução automática</rdfs:comment>
+</rdf:Description>
+
+<!-- ============ COMPONENTES DE PIPELINE ============ -->
+<rdf:Description rdf:about="#EtapaTokenizacao">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#ProcessamentoPipeline"/>
+  <rdfs:label xml:lang="pt">Etapa de Tokenização</rdfs:label>
+  <rdfs:label xml:lang="en">Tokenization Step</rdfs:label>
+  <rdfs:comment>Primeira etapa do pipeline que divide o texto em tokens</rdfs:comment>
+  <skos:notation>step_1</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#EtapaEtiquetacaoPos">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#ProcessamentoPipeline"/>
+  <rdfs:label xml:lang="pt">Etapa de Etiquetação POS</rdfs:label>
+  <rdfs:label xml:lang="en">POS Tagging Step</rdfs:label>
+  <rdfs:comment>Etapa que atribui categorias gramaticais aos tokens</rdfs:comment>
+  <skos:notation>step_2</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#EtapaAnaliseSintatica">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#ProcessamentoPipeline"/>
+  <rdfs:label xml:lang="pt">Etapa de Análise Sintática</rdfs:label>
+  <rdfs:label xml:lang="en">Syntactic Analysis Step</rdfs:label>
+  <rdfs:comment>Etapa que analisa a estrutura sintática da sentença</rdfs:comment>
+  <skos:notation>step_3</skos:notation>
+</rdf:Description>
+
+<!-- ============ FERRAMENTAS E FRAMEWORKS ============ -->
+<rdf:Description rdf:about="#SpacyToolkit">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Ferramenta"/>
+  <rdfs:label xml:lang="pt">spaCy</rdfs:label>
+  <rdfs:label xml:lang="en">spaCy NLP Library</rdfs:label>
+  <rdfs:comment>Biblioteca Python para processamento de linguagem natural com suporte a múltiplos idiomas</rdfs:comment>
+  <skos:notation>spacy</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#NLTKToolkit">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Ferramenta"/>
+  <rdfs:label xml:lang="pt">NLTK</rdfs:label>
+  <rdfs:label xml:lang="en">Natural Language Toolkit</rdfs:label>
+  <rdfs:comment>Conjunto de ferramentas e recursos educacionais para análise textual em Python</rdfs:comment>
+  <skos:notation>nltk</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="#HuggingfaceTransformers">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Framework"/>
+  <rdfs:label xml:lang="pt">Hugging Face Transformers</rdfs:label>
+  <rdfs:label xml:lang="en">Hugging Face Transformers Library</rdfs:label>
+  <rdfs:comment>Framework especializado em modelos baseados em Transformers para PLN</rdfs:comment>
+  <skos:notation>huggingface</skos:notation>
+</rdf:Description>
+
+<!-- ============ CONCEITOS FUNDAMENTAIS (EXEMPLOS) ============ -->
+<rdf:Description rdf:about="#TokenPronto">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Token"/>
+  <rdfs:label xml:lang="pt">Token: 'desenvolvimento'</rdfs:label>
+  <rdfs:label xml:lang="en">Token: 'development'</rdfs:label>
+  <rdfs:comment>Exemplo de um token extraído do texto 'O desenvolvimento de sistemas PLN é importante'</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#LemaExemplo">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Lema"/>
+  <rdfs:label xml:lang="pt">Lema: 'desenvolver'</rdfs:label>
+  <rdfs:label xml:lang="en">Lemma: 'to develop'</rdfs:label>
+  <rdfs:comment>Forma canônica que representa desenvolvendo, desenvolveu, desenvolvimento, etc.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ContextoExemplo">
+  <rdf:type rdf:resource="http://www.ufrgs.br/ontologies/onto_pln.owl#Contexto"/>
+  <rdfs:label xml:lang="pt">Contexto de 'bank'</rdfs:label>
+  <rdfs:label xml:lang="en">Context of 'bank' word</rdfs:label>
+  <rdfs:comment>O contexto que distingue 'bank' (banco) de 'bank' (margem de rio)</rdfs:comment>
+</rdf:Description>
+
+</rdf:RDF>
