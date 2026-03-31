@@ -1,0 +1,1180 @@
+====================================================================================================
+RELATÓRIO DE VERIFICAÇÃO DE MATCH - TERMOS vs ONTOLOGIA PLN
+====================================================================================================
+
+📊 ESTATÍSTICAS GERAIS
+----------------------------------------------------------------------------------------------------
+Total de termos no dataset:     1061
+Matches exatos encontrados:     127
+Matches parciais encontrados:   2
+Termos não encontrados:         932
+Taxa de cobertura:              12.16%
+
+
+====================================================================================================
+✅ MATCHES EXATOS (127 termos)
+====================================================================================================
+
+1. TERMO ORIGINAL: anotação lexical
+   Termo normalizado: anotacao lexical
+   Labels: Anotação Lexical
+   Alt Labels: Anotação lexical
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#AnotacaoLexical
+
+2. TERMO ORIGINAL: auto-atenção
+   Termo normalizado: auto atencao
+   Labels: Auto-atenção
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#AutoAtencao
+
+3. TERMO ORIGINAL: automatic summarization
+   Termo normalizado: automatic summarization
+   Labels: Automatic Summarization
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Sumarizacao
+
+4. TERMO ORIGINAL: avaliação
+   Termo normalizado: avaliacao
+   Labels: Avaliação
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Avaliacao
+
+5. TERMO ORIGINAL: bases de conhecimento
+   Termo normalizado: bases de conhecimento
+   Alt Labels: Bases de conhecimento
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ConhecimentoLinguistico
+
+6. TERMO ORIGINAL: bert
+   Termo normalizado: bert
+   Labels: BERT, BERT
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#BERT
+
+7. TERMO ORIGINAL: bertscore
+   Termo normalizado: bertscore
+   Labels: BERTScore, BERTScore
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#BERTScore
+
+8. TERMO ORIGINAL: bleu
+   Termo normalizado: bleu
+   Labels: BLEU, BLEU
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#BLEU
+
+9. TERMO ORIGINAL: bleurt
+   Termo normalizado: bleurt
+   Labels: BLEURT, BLEURT
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#BLEURT
+
+10. TERMO ORIGINAL: chatbot
+   Termo normalizado: chatbot
+   Labels: Chatbot, Chatbot
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Chatbot
+
+11. TERMO ORIGINAL: chrf
+   Termo normalizado: chrf
+   Labels: ChrF, ChrF
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#CHRF
+
+12. TERMO ORIGINAL: classificação de pergunta
+   Termo normalizado: classificacao de pergunta
+   Labels: Classificação de Pergunta
+   Alt Labels: Classificação de pergunta
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ClassificacaoPergunta
+
+13. TERMO ORIGINAL: classificação textual
+   Termo normalizado: classificacao textual
+   Labels: Classificação Textual
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ClassificacaoTextual
+
+14. TERMO ORIGINAL: classificação_de_pergunta
+   Termo normalizado: classificacao de pergunta
+   Labels: Classificação de Pergunta
+   Alt Labels: Classificação de pergunta
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ClassificacaoPergunta
+
+15. TERMO ORIGINAL: cobertura
+   Termo normalizado: cobertura
+   Alt Labels: Cobertura
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Recall
+
+16. TERMO ORIGINAL: comet
+   Termo normalizado: comet
+   Labels: COMET, COMET
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#COMET
+
+17. TERMO ORIGINAL: complex_question_answering
+   Termo normalizado: complex question answering
+   Labels: Complex Question Answering
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#RespostaPergunatasComplexas
+
+18. TERMO ORIGINAL: conhecimento linguístico
+   Termo normalizado: conhecimento linguistico
+   Labels: Conhecimento Linguístico
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ConhecimentoLinguistico
+
+19. TERMO ORIGINAL: context
+   Termo normalizado: context
+   Labels: Context
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Contexto
+
+20. TERMO ORIGINAL: contexto linguístico
+   Termo normalizado: contexto linguistico
+   Labels: Contexto Linguístico
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ContextoLinguistico
+
+21. TERMO ORIGINAL: contextual embedding
+   Termo normalizado: contextual embedding
+   Labels: Contextual Embedding
+   Alt Labels: Contextual embedding
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ContextualEmbedding
+
+22. TERMO ORIGINAL: contextualized embedding
+   Termo normalizado: contextualized embedding
+   Labels: Contextualized Embedding
+   Alt Labels: Contextualized embedding
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ContextualizedEmbedding
+
+23. TERMO ORIGINAL: corpus
+   Termo normalizado: corpus
+   Labels: Corpus, Corpus
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Corpus
+
+24. TERMO ORIGINAL: crf
+   Termo normalizado: crf
+   Alt Labels: CRF
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ConditionalRandomField
+
+25. TERMO ORIGINAL: cross-lingual embedding
+   Termo normalizado: cross lingual embedding
+   Labels: Cross-lingual Embedding
+   Alt Labels: Cross-lingual embedding
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#CrossLingualEmbedding
+
+26. TERMO ORIGINAL: data_augmentation
+   Termo normalizado: data augmentation
+   Labels: Data Augmentation
+   Alt Labels: Data augmentation
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#DataAugmentation
+
+27. TERMO ORIGINAL: deep learning
+   Termo normalizado: deep learning
+   Labels: Deep Learning, Deep Learning
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#DeepLearning
+
+28. TERMO ORIGINAL: deep_learning
+   Termo normalizado: deep learning
+   Labels: Deep Learning, Deep Learning
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#DeepLearning
+
+29. TERMO ORIGINAL: detecção de plágio
+   Termo normalizado: deteccao de plagio
+   Labels: Detecção de Plágio
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#DeteccaoPlagio
+
+30. TERMO ORIGINAL: dicionário
+   Termo normalizado: dicionario
+   Labels: Dicionário
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Dicionario
+
+31. TERMO ORIGINAL: edit distance
+   Termo normalizado: edit distance
+   Labels: Edit Distance
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EditDistance
+
+32. TERMO ORIGINAL: edit distance metrics
+   Termo normalizado: edit distance metrics
+   Alt Labels: Edit distance metrics
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EditDistance
+
+33. TERMO ORIGINAL: elmo
+   Termo normalizado: elmo
+   Labels: ELMo, ELMo
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ELMo
+
+34. TERMO ORIGINAL: embedding
+   Termo normalizado: embedding
+   Labels: Embedding, Embedding
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Embedding
+
+35. TERMO ORIGINAL: embedding de sentença
+   Termo normalizado: embedding de sentenca
+   Labels: Embedding de Sentença
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#SentenceEmbedding
+
+36. TERMO ORIGINAL: embedding de token
+   Termo normalizado: embedding de token
+   Labels: Embedding de Token
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TokenEmbedding
+
+37. TERMO ORIGINAL: embedding estático
+   Termo normalizado: embedding estatico
+   Labels: Embedding Estático
+   Alt Labels: Embedding estático
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#StaticEmbedding
+
+38. TERMO ORIGINAL: espanhol
+   Termo normalizado: espanhol
+   Labels: Espanhol
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Espanhol
+
+39. TERMO ORIGINAL: espaço semântico
+   Termo normalizado: espaco semantico
+   Labels: Espaço Semântico
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EspacoSemantico
+
+40. TERMO ORIGINAL: espaço semântico multidimensional
+   Termo normalizado: espaco semantico multidimensional
+   Alt Labels: Espaço semântico multidimensional
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EspacoSemantico
+
+41. TERMO ORIGINAL: espaço vetorial
+   Termo normalizado: espaco vetorial
+   Labels: Espaço Vetorial
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EspacoVetorial
+
+42. TERMO ORIGINAL: extração automática de eventos
+   Termo normalizado: extracao automatica de eventos
+   Labels: Extração Automática de Eventos
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoAutomaticaEventos
+
+43. TERMO ORIGINAL: extração conjunta
+   Termo normalizado: extracao conjunta
+   Labels: Extração Conjunta
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoConjunta
+
+44. TERMO ORIGINAL: extração de eventos
+   Termo normalizado: extracao de eventos
+   Labels: Extração de Eventos
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoEventos
+
+45. TERMO ORIGINAL: extração de informação
+   Termo normalizado: extracao de informacao
+   Labels: Extração de Informação
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoInformacao
+
+46. TERMO ORIGINAL: extração de informação aberta
+   Termo normalizado: extracao de informacao aberta
+   Labels: Extração de Informação Aberta
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#OpenInformationExtraction
+
+47. TERMO ORIGINAL: extração de relações
+   Termo normalizado: extracao de relacoes
+   Labels: Extração de Relações
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoRelacoes
+
+48. TERMO ORIGINAL: extração sequencial
+   Termo normalizado: extracao sequencial
+   Labels: Extração Sequencial
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoSequencial
+
+49. TERMO ORIGINAL: frase
+   Termo normalizado: frase
+   Labels: Frase
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Frase
+
+50. TERMO ORIGINAL: função de ativação
+   Termo normalizado: funcao de ativacao
+   Labels: Função de Ativação
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#FuncaoAtivacao
+
+51. TERMO ORIGINAL: função de perda
+   Termo normalizado: funcao de perda
+   Labels: Função de Perda
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#FuncaoPerda
+
+52. TERMO ORIGINAL: geração de embeddings
+   Termo normalizado: geracao de embeddings
+   Labels: Geração de Embeddings
+   Alt Labels: Geração de embeddings
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#GeriacaoEmbeddings
+
+53. TERMO ORIGINAL: gpt
+   Termo normalizado: gpt
+   Labels: GPT, GPT
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#GPT
+
+54. TERMO ORIGINAL: grafo de conhecimento
+   Termo normalizado: grafo de conhecimento
+   Labels: Grafo de Conhecimento
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#GrafoConhecimento
+
+55. TERMO ORIGINAL: hter
+   Termo normalizado: hter
+   Labels: HTER, HTER
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#HTER
+
+56. TERMO ORIGINAL: information extraction
+   Termo normalizado: information extraction
+   Labels: Information Extraction
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ExtracacaoInformacao
+
+57. TERMO ORIGINAL: information retrieval
+   Termo normalizado: information retrieval
+   Labels: Information Retrieval
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#RecuperacaoInformacao
+
+58. TERMO ORIGINAL: inglês
+   Termo normalizado: ingles
+   Labels: Inglês
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Ingles
+
+59. TERMO ORIGINAL: interpretability
+   Termo normalizado: interpretability
+   Labels: Interpretability
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Interpretabilidade
+
+60. TERMO ORIGINAL: language model
+   Termo normalizado: language model
+   Labels: Language Model
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloLinguagem
+
+61. TERMO ORIGINAL: language_model
+   Termo normalizado: language model
+   Labels: Language Model
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloLinguagem
+
+62. TERMO ORIGINAL: linguagem
+   Termo normalizado: linguagem
+   Labels: Linguagem
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Linguagem
+
+63. TERMO ORIGINAL: língua escrita
+   Termo normalizado: lingua escrita
+   Labels: Língua Escrita
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#LinguaEscrita
+
+64. TERMO ORIGINAL: machine_translation
+   Termo normalizado: machine translation
+   Labels: Machine Translation
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoAutomatica
+
+65. TERMO ORIGINAL: matriz_de_pesos
+   Termo normalizado: matriz de pesos
+   Labels: Matriz de Pesos
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#MatrizPesos
+
+66. TERMO ORIGINAL: meaning
+   Termo normalizado: meaning
+   Labels: Meaning
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Significado
+
+67. TERMO ORIGINAL: mecanismo de atenção
+   Termo normalizado: mecanismo de atencao
+   Labels: Mecanismo de Atenção
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#MecanismoAtencao
+
+68. TERMO ORIGINAL: mecanismo de gate
+   Termo normalizado: mecanismo de gate
+   Labels: Mecanismo de Gate
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#MecanismoGate
+
+69. TERMO ORIGINAL: meteor
+   Termo normalizado: meteor
+   Labels: METEOR, METEOR
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#METEOR
+
+70. TERMO ORIGINAL: modelo booleano
+   Termo normalizado: modelo booleano
+   Labels: Modelo Booleano
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloBooleano
+
+71. TERMO ORIGINAL: modelo de linguagem
+   Termo normalizado: modelo de linguagem
+   Labels: Modelo de Linguagem
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloLinguagem
+
+72. TERMO ORIGINAL: modelo n-grama
+   Termo normalizado: modelo n grama
+   Labels: Modelo N-grama
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloNgrama
+
+73. TERMO ORIGINAL: modelo vetorial
+   Termo normalizado: modelo vetorial
+   Labels: Modelo Vetorial
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloVetorial
+
+74. TERMO ORIGINAL: modelo_de_linguagem
+   Termo normalizado: modelo de linguagem
+   Labels: Modelo de Linguagem
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ModeloLinguagem
+
+75. TERMO ORIGINAL: métrica automática
+   Termo normalizado: metrica automatica
+   Labels: Métrica Automática
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#MetricaAutomatic
+
+76. TERMO ORIGINAL: named entity recognition
+   Termo normalizado: named entity recognition
+   Labels: Named Entity Recognition
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ReconhecimentoEntidadesNomeadas
+
+77. TERMO ORIGINAL: neural machine translation
+   Termo normalizado: neural machine translation
+   Labels: Neural Machine Translation
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoNeural
+
+78. TERMO ORIGINAL: nist
+   Termo normalizado: nist
+   Labels: NIST, NIST
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#NIST
+
+79. TERMO ORIGINAL: normalização
+   Termo normalizado: normalizacao
+   Labels: Normalização
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Normalizacao
+
+80. TERMO ORIGINAL: open ie
+   Termo normalizado: open ie
+   Alt Labels: Open IE
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#OpenInformationExtraction
+
+81. TERMO ORIGINAL: open information extraction
+   Termo normalizado: open information extraction
+   Labels: Open Information Extraction
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#OpenInformationExtraction
+
+82. TERMO ORIGINAL: paradigma estatístico
+   Termo normalizado: paradigma estatistico
+   Labels: Paradigma Estatístico
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ParadigmaEstatistico
+
+83. TERMO ORIGINAL: paradigma híbrido
+   Termo normalizado: paradigma hibrido
+   Labels: Paradigma Híbrido
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ParadigmaHibrido
+
+84. TERMO ORIGINAL: paradigma neural
+   Termo normalizado: paradigma neural
+   Labels: Paradigma Neural
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ParadigmaNeural
+
+85. TERMO ORIGINAL: paradigma simbólico
+   Termo normalizado: paradigma simbolico
+   Labels: Paradigma Simbólico
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ParadigmaSimbólico
+
+86. TERMO ORIGINAL: precision
+   Termo normalizado: precision
+   Labels: Precision
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Precisao
+
+87. TERMO ORIGINAL: precisão
+   Termo normalizado: precisao
+   Labels: Precisão
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Precisao
+
+88. TERMO ORIGINAL: recall
+   Termo normalizado: recall
+   Labels: Recall, Recall
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Recall
+
+89. TERMO ORIGINAL: reconhecimento de entidades nomeadas
+   Termo normalizado: reconhecimento de entidades nomeadas
+   Labels: Reconhecimento de Entidades Nomeadas
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ReconhecimentoEntidadesNomeadas
+
+90. TERMO ORIGINAL: recuperação de documentos
+   Termo normalizado: recuperacao de documentos
+   Labels: Recuperação de Documentos
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#DocumentRetrieval
+
+91. TERMO ORIGINAL: recuperação de informação
+   Termo normalizado: recuperacao de informacao
+   Labels: Recuperação de Informação
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#RecuperacaoInformacao
+
+92. TERMO ORIGINAL: remoção de sinais diacríticos
+   Termo normalizado: remocao de sinais diacriticos
+   Labels: Remoção de Sinais Diacríticos
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#RemocaoDiacriticos
+
+93. TERMO ORIGINAL: representação distribuída
+   Termo normalizado: representacao distribuida
+   Labels: Representação Distribuída
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#RepresentacaoDistribuida
+
+94. TERMO ORIGINAL: rouge
+   Termo normalizado: rouge
+   Labels: ROUGE, ROUGE
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ROUGE
+
+95. TERMO ORIGINAL: semantic role labeling
+   Termo normalizado: semantic role labeling
+   Labels: Semantic Role Labeling
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EtiquetacaoSemantica
+
+96. TERMO ORIGINAL: semântica
+   Termo normalizado: semantica
+   Labels: Semântica
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Semantica
+
+97. TERMO ORIGINAL: sentença
+   Termo normalizado: sentenca
+   Labels: Sentença
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Sentenca
+
+98. TERMO ORIGINAL: sentenças
+   Termo normalizado: sentencas
+   Alt Labels: Sentenças
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Sentenca
+
+99. TERMO ORIGINAL: sequence-to-sequence
+   Termo normalizado: sequence to sequence
+   Labels: Sequence-to-Sequence, Sequence-to-Sequence
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Seq2Seq
+
+100. TERMO ORIGINAL: sintaxe
+   Termo normalizado: sintaxe
+   Labels: Sintaxe
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Sintaxe
+
+101. TERMO ORIGINAL: statistical machine translation
+   Termo normalizado: statistical machine translation
+   Labels: Statistical Machine Translation
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoEstatistica
+
+102. TERMO ORIGINAL: stemming
+   Termo normalizado: stemming
+   Labels: Stemming, Stemming
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Stemming
+
+103. TERMO ORIGINAL: stop word removal
+   Termo normalizado: stop word removal
+   Labels: Stop Word Removal
+   Alt Labels: Stop word removal
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#StopWordRemoval
+
+104. TERMO ORIGINAL: stop words
+   Termo normalizado: stop words
+   Labels: Stop Words, Stop Words
+   Alt Labels: Stop words
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#StopWords
+
+105. TERMO ORIGINAL: supervisão fraca
+   Termo normalizado: supervisao fraca
+   Labels: Supervisão Fraca
+   Alt Labels: Supervisão fraca
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#SupervisaoFraca
+
+106. TERMO ORIGINAL: ter
+   Termo normalizado: ter
+   Labels: TER, TER
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TER
+
+107. TERMO ORIGINAL: texto
+   Termo normalizado: texto
+   Alt Labels: Texto
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#LinguaEscrita
+
+108. TERMO ORIGINAL: token
+   Termo normalizado: token
+   Labels: Token, Token
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Token
+
+109. TERMO ORIGINAL: tokenização
+   Termo normalizado: tokenizacao
+   Labels: Tokenização
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Tokenizacao
+
+110. TERMO ORIGINAL: tradução automática
+   Termo normalizado: traducao automatica
+   Labels: Tradução Automática
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoAutomatica
+
+111. TERMO ORIGINAL: tradução direta
+   Termo normalizado: traducao direta
+   Labels: Tradução Direta
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoDireta
+
+112. TERMO ORIGINAL: tradução estatística
+   Termo normalizado: traducao estatistica
+   Labels: Tradução Estatística
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoEstatistica
+
+113. TERMO ORIGINAL: tradução neural
+   Termo normalizado: traducao neural
+   Labels: Tradução Neural
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoNeural
+
+114. TERMO ORIGINAL: tradução por interlíngua
+   Termo normalizado: traducao por interlingua
+   Labels: Tradução por Interlíngua
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoInterlíngua
+
+115. TERMO ORIGINAL: tradução_automática
+   Termo normalizado: traducao automatica
+   Labels: Tradução Automática
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#TradacaoAutomatica
+
+116. TERMO ORIGINAL: training
+   Termo normalizado: training
+   Labels: Training
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Treinamento
+
+117. TERMO ORIGINAL: transformer
+   Termo normalizado: transformer
+   Labels: Transformer, Transformer
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Transformer
+
+118. TERMO ORIGINAL: treinamento
+   Termo normalizado: treinamento
+   Labels: Treinamento
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Treinamento
+
+119. TERMO ORIGINAL: trust in ai systems
+   Termo normalizado: trust in ai systems
+   Labels: Trust in AI Systems
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#ConfiancaSistemas
+
+120. TERMO ORIGINAL: vetor
+   Termo normalizado: vetor
+   Labels: Vetor
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Vetor
+
+121. TERMO ORIGINAL: vetor de contexto
+   Termo normalizado: vetor de contexto
+   Labels: Vetor de Contexto
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#VetorDeContexto
+
+122. TERMO ORIGINAL: vieses e preconceitos
+   Termo normalizado: vieses e preconceitos
+   Alt Labels: Vieses e preconceitos
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Vies
+
+123. TERMO ORIGINAL: viés
+   Termo normalizado: vies
+   Labels: Viés
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#Vies
+
+124. TERMO ORIGINAL: wer
+   Termo normalizado: wer
+   Labels: WER, WER
+   Tipo de match: label
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#WER
+
+125. TERMO ORIGINAL: word embedding
+   Termo normalizado: word embedding
+   Labels: Word Embedding, Word Embedding
+   Alt Labels: Word embedding
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#WordEmbedding
+
+126. TERMO ORIGINAL: word error rate
+   Termo normalizado: word error rate
+   Alt Labels: Word Error Rate
+   Tipo de match: altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#WER
+
+127. TERMO ORIGINAL: ética em ia
+   Termo normalizado: etica em ia
+   Labels: Ética em IA
+   Alt Labels: Ética em ia
+   Tipo de match: label, altlabel
+   Confiança: 100.0%
+   Classes: 1 classe(s)
+     - http://www.ufrgs.br/ontologies/onto_pln.owl#EticaIA
+
+
+====================================================================================================
+⚠️  MATCHES PARCIAIS (2 termos)
+====================================================================================================
+
+1. TERMO ORIGINAL: análise de dependência sintática
+   Termo normalizado: analise de dependencia sintatica
+   Correspondeu com: analise sintatica de dependencia
+   Labels: Análise Sintática de Dependência
+   Confiança: 100.0%
+
+2. TERMO ORIGINAL: modelo de geração de linguagem natural
+   Termo normalizado: modelo de geracao de linguagem natural
+   Correspondeu com: geracao de linguagem natural
+   Labels: Geração de Linguagem Natural
+   Confiança: 80.0%
+
+
+====================================================================================================
+❌ TERMOS NÃO ENCONTRADOS (932 termos)
+====================================================================================================
+
+1. 1580-1640
+   Normalizado: 1580 1640
+2. 1949
+   Normalizado: 1949
+3. 1957
+   Normalizado: 1957
+4. 1972
+   Normalizado: 1972
+5. 1978
+   Normalizado: 1978
+6. 1983
+   Normalizado: 1983
+7. 1988
+   Normalizado: 1988
+8. 1990s
+   Normalizado: 1990s
+9. 1991
+   Normalizado: 1991
+10. 1992
+   Normalizado: 1992
+11. 1993
+   Normalizado: 1993
+12. 1995
+   Normalizado: 1995
+13. 1996
+   Normalizado: 1996
+14. 1999
+   Normalizado: 1999
+15. 2000
+   Normalizado: 2000
+16. 2003
+   Normalizado: 2003
+17. 2004
+   Normalizado: 2004
+18. 2005
+   Normalizado: 2005
+19. 2006
+   Normalizado: 2006
+20. 2007
+   Normalizado: 2007
+21. 2008
+   Normalizado: 2008
+22. 2010
+   Normalizado: 2010
+23. 2011
+   Normalizado: 2011
+24. 2013
+   Normalizado: 2013
+25. 2016
+   Normalizado: 2016
+26. 2017
+   Normalizado: 2017
+27. 2018
+   Normalizado: 2018
+28. 2019
+   Normalizado: 2019
+29. 2020
+   Normalizado: 2020
+30. 2021
+   Normalizado: 2021
+31. 2022
+   Normalizado: 2022
+32. 2023
+   Normalizado: 2023
+33. a neural probabilistic language model
+   Normalizado: a neural probabilistic language model
+34. abordagem baseada em exemplos
+   Normalizado: abordagem baseada em exemplos
+35. abordagem baseada em regras
+   Normalizado: abordagem baseada em regras
+36. abordagem end-to-end
+   Normalizado: abordagem end to end
+37. abordagem estatística
+   Normalizado: abordagem estatistica
+38. abordagem híbrida
+   Normalizado: abordagem hibrida
+39. abordagem modular com documentos
+   Normalizado: abordagem modular com documentos
+40. abordagem modular com grafo de conhecimento
+   Normalizado: abordagem modular com grafo de conhecimento
+41. abordagens baseadas em corpus (empíricas)
+   Normalizado: abordagens baseadas em corpus empiricas
+42. abordagens baseadas em dados
+   Normalizado: abordagens baseadas em dados
+43. abordagens de avaliação
+   Normalizado: abordagens de avaliacao
+44. abreu
+   Normalizado: abreu
+45. ace
+   Normalizado: ace
+46. acento agudo
+   Normalizado: acento agudo
+47. acento circunflexo
+   Normalizado: acento circunflexo
+48. acento grave
+   Normalizado: acento grave
+49. acervo
+   Normalizado: acervo
+50. ackel (2021)
+   Normalizado: ackel 2021
+
+... e mais 882 termos não encontrados
+
+====================================================================================================
+RESUMO
+====================================================================================================
+✓ 127 (12.0%) termos encontrados exatamente
+⚠ 2 (0.2%) termos encontrados parcialmente
+✗ 932 (87.8%) termos não encontrados
+
+📈 Taxa de cobertura total: 12.16%

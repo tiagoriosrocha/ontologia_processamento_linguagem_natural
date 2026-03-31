@@ -1,0 +1,316 @@
+Lista completa de termos de PLN encontrados
+
+
+🔹 Conceitos gerais
+processamento de linguagem natural
+natural language processing
+pln
+linguagem natural
+contexto
+contexto linguístico
+frase
+sentenças
+token
+tokens
+tokenização
+tokenizador
+vocabulário
+corpus
+corpora
+conjunto de textos
+conjunto de dados
+conjunto de dados anotados
+dados
+base de conhecimento
+bases de conhecimento
+conhecimento linguístico
+representação distribuída
+espaço vetorial
+espaço semântico
+espaço semântico multidimensional
+vetor
+vetor de contexto
+
+
+🔹 Tarefas de PLN
+tradução automática
+tradução automática neural
+tradução automática estatística
+sumarização
+automatic summarization
+text summarization
+recuperação de informação
+information retrieval
+extração de informação
+information extraction
+open information extraction
+extração de entidades nomeadas
+reconhecimento de entidades nomeadas
+named entity recognition
+classificação textual
+classificação de pergunta
+pergunta e resposta
+question answering
+complex question answering
+speech recognition
+semantic role labeling
+similaridade semântica
+syntactic similarity tasks
+
+
+🔹 Modelos e arquiteturas
+modelo
+modelo de linguagem
+language model
+modelos de linguagem
+modelos de linguagem neurais
+modelos de linguagem pré-treinados
+modelo n-grama
+modelo sequencial
+modelo supervisionado
+modelo vetorial
+rede neural
+redes neurais
+redes neurais artificiais
+redes neurais recorrentes
+redes recorrentes
+redes neurais convolucionais
+long short-term memory
+lstm
+transformer
+transformers
+sequence-to-sequence
+seq2seq
+arquitetura transformers
+arquitetura de redes neurais recursivas (rnn)
+
+
+🔹 Representações e embeddings
+embedding
+embeddings
+word embedding
+contextual embedding
+contextualized embedding
+embedding de sentença
+embedding de token
+embedding estático
+embeddings contextualizados
+cross-lingual embedding
+geração de embeddings
+representação vetorial
+
+
+🔹 Mecanismos internos
+mecanismo de atenção
+auto-atenção
+mecanismo de gate
+função de ativação
+função de perda
+matriz de pesos
+
+
+🔹 Métricas de avaliação
+f-measure
+f1
+f1-score
+precision
+recall
+bleu
+meteor
+nist
+ter
+hter
+wer
+chrf
+rouge
+bertscore
+bleurt
+comet
+métricas de avaliação automática (maas)
+métricas de qualidade
+métricas de performance
+métricas de similaridade
+similarity metrics
+edit distance
+edit distance metrics
+word error rate
+
+
+🔹 Avaliação
+avaliação
+avaliação automática
+avaliação humana
+avaliação de tradução automática
+avaliação de extração de informação
+avaliação de tecnologias de linguagem
+avaliação em pln
+avaliação quantitativa
+avaliação_black_box
+avaliação_glass_box
+human_evaluation
+automatic_evaluation_metrics
+evaluation_benchmark
+benchmark
+standard
+gabarito
+gabaritos
+gabaritos-padrão
+reference translation
+
+
+🔹 Métodos e abordagens
+aprendizado de máquina
+aprendizagem de máquina
+deep learning
+aprendizado de representação
+aprendizado sequência a sequência
+métodos supervisionados
+métodos baseados em dados
+métodos baseados em conhecimento
+abordagem baseada em regras
+abordagem estatística
+abordagem híbrida
+abordagem end-to-end
+data augmentation
+supervisão fraca
+
+
+🔹 Recursos linguísticos
+recursos linguísticos
+recursos bilíngues
+corpus paralelos
+corpora paralelos
+corpus de treinamento
+corpus de teste
+corpus de avaliação
+textos bilíngues
+
+
+🔹 Pré-processamento e análise linguística
+análise semântica
+análise de dependência sintática
+análise sintática
+análise morfológica
+normalização
+normalização textual
+stemming
+stop words
+stop word removal
+segmentação textual
+divisão em sentenças
+anotação de texto
+anotação de corpora
+anotação morfológica
+anotação lexical
+
+
+🔹 Extração e estruturação
+extração de relações
+extração de eventos
+extração conjunta
+extração sequencial
+extração automática de eventos
+vinculação de entidades
+linking
+identificação de entidades
+identificação sequencial
+
+
+🔹 Outros conceitos importantes
+interpretability
+viés
+vieses e preconceitos
+explicabilidade
+confiança em sistemas de ia
+ética em ia
+inferência
+inferência complexa
+generalização
+sobreajuste (implícito em contexto)
+
+
+2. Termos NOVOS recomendados (fora da tua lista)
+
+🔹 2.1 Pipeline de PLN
+
+pré-processamento de texto
+pipeline de processamento
+inferência
+treinamento
+fine-tuning
+pré-treinamento
+pós-processamento
+
+🔹 2.2 LLMs e paradigma atual
+
+large language model (llm)
+prompt
+prompt engineering
+in-context learning
+zero-shot learning
+few-shot learning
+chain-of-thought
+instruction tuning
+alignment
+hallucination
+
+🔹 2.3 Representação e semântica
+
+representação semântica explícita
+representação simbólica
+representação híbrida
+grafo de conhecimento (já existe no teu dataset, mas precisa formalizar melhor)
+entity linking
+entity disambiguation
+
+🔹 2.4 Recuperação + RAG
+
+retrieval
+dense retrieval
+sparse retrieval
+reranking
+passage retrieval
+document retrieval
+retrieval-augmented generation (rag)
+graph-based retrieval
+
+🔹 2.5 Estrutura linguística (nível linguístico)
+
+morfologia
+sintaxe
+semântica composicional
+pragmática
+parsing
+dependency parsing
+constituency parsing
+
+🔹 2.6 Avaliação moderna 
+
+avaliação de factualidade
+avaliação de coerência
+avaliação de consistência
+robustez
+generalização
+calibration
+
+🔹 2.7 Tipos de erro
+
+erro de raciocínio (reasoning error)
+erro de recuperação (retrieval error)
+erro de construção de grafo
+erro de cobertura ontológica
+erro de desambiguação
+
+🔹 2.8 Dados e treinamento
+dataset
+dataset anotado
+dados rotulados
+dados não supervisionados
+distribuição de dados
+shift de domínio
+
+🔹 2.9 Interpretação e análise de modelos
+explainability
+attention visualization
+probing tasks
+análise de erro
