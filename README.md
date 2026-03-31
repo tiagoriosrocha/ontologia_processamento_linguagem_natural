@@ -26,7 +26,6 @@ Esta ontologia PLN é uma **representação formal e estruturada do conhecimento
 | Arquivo | Tipo | Descrição |
 |---------|------|-----------|
 | **`onto_pln.owl`** | TBox (Terminologia) | Ontologia principal: 315 classes, 9 propriedades, 2.380 linhas |
-| **`onto_pln_individuals.owl`** | ABox (Asserções) | 62 instâncias concretas exemplificando as classes |
 
 ---
 
