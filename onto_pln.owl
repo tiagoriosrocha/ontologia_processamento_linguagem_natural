@@ -2385,4 +2385,154 @@
   <rdfs:comment>Métrica de avaliação que não requer dados de referência</rdfs:comment>
 </owl:Class>
 
+<!-- ====== Arquiteturas Neurais Modernas ====== -->
+
+<owl:Class rdf:about="#ModeloTransformer">
+  <rdfs:subClassOf rdf:resource="#RedeNeuralProfunda" />
+  <rdfs:label xml:lang="pt">Modelo Transformer</rdfs:label>
+  <rdfs:label xml:lang="en">Transformer Model</rdfs:label>
+  <rdfs:comment>Arquitetura neural baseada em mecanismo de auto-atenção, sem convoluções ou recorrência. Revolucionou PLN desde 2017. Composto por encoders e decoders com múltiplas camadas de atenção multi-cabeça.</rdfs:comment>
+  <skos:altLabel>Transformador</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#LargeLanguageModelModerno">
+  <rdfs:subClassOf rdf:resource="#LLM" />
+  <rdfs:label xml:lang="pt">Modelo de Linguagem de Grande Escala Moderno</rdfs:label>
+  <rdfs:label xml:lang="en">Modern Large Language Model</rdfs:label>
+  <rdfs:comment>LLM contemporâneo (2020+) com arquitetura Transformer decoder-only, capaz de zero-shot e in-context learning. Exemplos: GPT-3, GPT-4, Claude, Falcon, Mistral, Llama. Caracterizado por escalabilidade até bilhões de parâmetros.</rdfs:comment>
+  <skos:altLabel>LLM Moderno</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#MultiHeadAttention">
+  <rdfs:subClassOf rdf:resource="#MecanismoAtencao" />
+  <rdfs:label xml:lang="pt">Atenção Multi-cabeça</rdfs:label>
+  <rdfs:label xml:lang="en">Multi-head Attention</rdfs:label>
+  <rdfs:comment>Extensão do mecanismo de atenção que calcula múltiplas representações de atenção em paralelo. Permite que o modelo atenda diferentes subrepresentações simultâneamente. Componente fundamental de Transformers.</rdfs:comment>
+  <skos:altLabel>Multi-headed attention</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#CrossAttention">
+  <rdfs:subClassOf rdf:resource="#MecanismoAtencao" />
+  <rdfs:label xml:lang="pt">Atenção Cruzada</rdfs:label>
+  <rdfs:label xml:lang="en">Cross-attention</rdfs:label>
+  <rdfs:comment>Mecanismo de atenção que permite elemento de uma sequência atender elementos de outra sequência. Usado em arquiteturas encoder-decoder para conectar representações de entrada e saída.</rdfs:comment>
+  <skos:altLabel>Cross-modal attention</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#FlashAttention">
+  <rdfs:subClassOf rdf:resource="#MecanismoAtencao" />
+  <rdfs:label xml:lang="pt">Flash Attention</rdfs:label>
+  <rdfs:label xml:lang="en">Flash Attention</rdfs:label>
+  <rdfs:comment>Algoritmo otimizado para cálculo eficiente de atenção em GPU (2023). Reduz complexidade e uso de memória enquanto mantém semântica idêntica. Importante para escalabilidade de modelos grandes.</rdfs:comment>
+  <skos:altLabel>Efficient attention algorithm</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#BERTScoreMetrica">
+  <rdfs:subClassOf rdf:resource="#MetricaAutomatic" />
+  <rdfs:label xml:lang="pt">BERTScore</rdfs:label>
+  <rdfs:label xml:lang="en">BERTScore</rdfs:label>
+  <rdfs:comment>Métrica neural de avaliação que usa embeddings contextualizados BERT para calcular similaridade entre textos. Substitui métricas léxicas (BLEU) com correlação melhor com avaliação humana.</rdfs:comment>
+  <skos:altLabel>BERT-based evaluation metric</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Técnicas de Prompt Engineering ====== -->
+
+<owl:Class rdf:about="#ChainOfThoughtPrompting">
+  <rdfs:subClassOf rdf:resource="#PromptEngineering" />
+  <rdfs:label xml:lang="pt">Chain-of-Thought Prompting</rdfs:label>
+  <rdfs:label xml:lang="en">Chain-of-Thought Prompting</rdfs:label>
+  <rdfs:comment>Técnica de prompt que solicita ao modelo mostrar raciocínio passo-a-passo antes de chegar à conclusão. Melhora significativamente a performance em tarefas de raciocínio complexo em LLMs.</rdfs:comment>
+  <skos:altLabel>CoT prompting</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#FewShotExamplePrompting">
+  <rdfs:subClassOf rdf:resource="#PromptEngineering" />
+  <rdfs:label xml:lang="pt">Few-Shot Example Prompting</rdfs:label>
+  <rdfs:label xml:lang="en">Few-Shot Example Prompting</rdfs:label>
+  <rdfs:comment>Incluir exemplos de entrada-saída no prompt para demonstrar padrão desejado. Permite adaptação rápida sem fine-tuning em LLMs.</rdfs:comment>
+  <skos:altLabel>In-context examples</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Abordagens de Aprendizado de Máquina (Fundamentação Conceitual) ====== -->
+
+<owl:Class rdf:about="#AbordagemAprendizadoMaquina">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Abordagem de Aprendizado de Máquina</rdfs:label>
+  <rdfs:label xml:lang="en">Machine Learning Approach</rdfs:label>
+  <rdfs:comment>Categorização de metodologias de aprendizado de máquina utilizadas em PLN. Engloba estratégias supervisionadas, não-supervisionadas, semi-supervisionadas e com aprendizado por reforço. Conceito transversal fundamental.</rdfs:comment>
+  <skos:altLabel>Machine Learning methodology</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AprendizadoSupervisionadoEspecializado">
+  <rdfs:subClassOf rdf:resource="#AbordagemAprendizadoMaquina" />
+  <rdfs:label xml:lang="pt">Aprendizado Supervisionado</rdfs:label>
+  <rdfs:label xml:lang="en">Supervised Learning</rdfs:label>
+  <rdfs:comment>Aprendizado onde dados de treinamento possuem rótulos/labels. Modelo aprende a mapear entrada para saída esperada. Aplica-se a classificação, regressão, tagging e parsing. Requer anotação manual de dados.</rdfs:comment>
+  <skos:altLabel>Supervised machine learning</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AprendizadoNaoSupervisionadoEspecializado">
+  <rdfs:subClassOf rdf:resource="#AbordagemAprendizadoMaquina" />
+  <rdfs:label xml:lang="pt">Aprendizado Não-Supervisionado</rdfs:label>
+  <rdfs:label xml:lang="en">Unsupervised Learning</rdfs:label>
+  <rdfs:comment>Aprendizado sem rótulos. Modelo descobre padrões estruturais nos dados. Aplicações: clustering, dimensionality reduction, modelagem de linguagem. Fundamental para pré-treinamento de grandes modelos.</rdfs:comment>
+  <skos:altLabel>Unsupervised machine learning</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#AprendizadoSemiSupervisionado">
+  <rdfs:subClassOf rdf:resource="#AbordagemAprendizadoMaquina" />
+  <rdfs:label xml:lang="pt">Aprendizado Semi-Supervisionado</rdfs:label>
+  <rdfs:label xml:lang="en">Semi-supervised Learning</rdfs:label>
+  <rdfs:comment>Aprendizado que combina dados rotulados (poucos) com dados não-rotulados (abundantes). Importante quando anotação manual é cara. Técnicas: pseudo-labeling, self-training, co-training.</rdfs:comment>
+  <skos:altLabel>Semi-supervised machine learning</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Técnicas Avançadas de Transferência ====== -->
+
+<owl:Class rdf:about="#DomainAdaptation">
+  <rdfs:subClassOf rdf:resource="#AprendizadoPorTransferencia" />
+  <rdfs:label xml:lang="pt">Adaptação de Domínio</rdfs:label>
+  <rdfs:label xml:lang="en">Domain Adaptation</rdfs:label>
+  <rdfs:comment>Técnica de transferência de conhecimento quando dados de treinamento e teste vêm de distribuições diferentes. Crítico para aplicações práticas onde dados disponíveis não correspondem ao domínio alvo. Estratégias: adversarial training, domain-invariant features.</rdfs:comment>
+  <skos:altLabel>Cross-domain adaptation</skos:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#CrossLingualTransfer">
+  <rdfs:subClassOf rdf:resource="#AprendizadoPorTransferencia" />
+  <rdfs:label xml:lang="pt">Transferência Cross-Lingual</rdfs:label>
+  <rdfs:label xml:lang="en">Cross-lingual Transfer</rdfs:label>
+  <rdfs:comment>Transferência de conhecimento entre línguas diferentes. Permite que modelos treinados em línguas com muitos dados beneficiem línguas com poucos dados. Explora representações multilíngues compartilhadas através de modelos como mBERT, XLM-R.</rdfs:comment>
+  <skos:altLabel>Multilingual transfer learning</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Meta-Learning ====== -->
+
+<owl:Class rdf:about="#MetaLearning">
+  <rdfs:subClassOf rdf:resource="#TecnicaAprendizado" />
+  <rdfs:label xml:lang="pt">Meta-Aprendizado</rdfs:label>
+  <rdfs:label xml:lang="en">Meta-learning</rdfs:label>
+  <rdfs:comment>Aprendizado de como aprender eficientemente. Modelo treinado para rapidamente se adaptar a novas tarefas com poucos exemplos. Abordagens: Prototypical Networks, Matching Networks, Model-Agnostic Meta-Learning (MAML). Fundamental para few-shot learning.</rdfs:comment>
+  <skos:altLabel>Learning to learn</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Arquitetur Encoder-Decoder ====== -->
+
+<owl:Class rdf:about="#EncoderDecoderArchitecture">
+  <rdfs:subClassOf rdf:resource="#Transformer" />
+  <rdfs:label xml:lang="pt">Arquitetura Encoder-Decoder</rdfs:label>
+  <rdfs:label xml:lang="en">Encoder-Decoder Architecture</rdfs:label>
+  <rdfs:comment>Arquitetura com dois componentes: Encoder processa entrada e cria representação latente, Decoder gera saída sequencial a partir dessa representação. Padrão-ouro para tradução, sumarização, geração. Exemplos: T5, BART, mBART.</rdfs:comment>
+  <skos:altLabel>Seq2Seq encoder-decoder</skos:altLabel>
+</owl:Class>
+
+<!-- ====== Multimodal Learning ====== -->
+
+<owl:Class rdf:about="#MultimodalLearning">
+  <rdfs:subClassOf rdf:resource="#ParadigmaPLN" />
+  <rdfs:label xml:lang="pt">Aprendizado Multimodal</rdfs:label>
+  <rdfs:label xml:lang="en">Multimodal Learning</rdfs:label>
+  <rdfs:comment>Aprendizado que processa e integra múltiplas modalidades: texto, imagem, áudio, vídeo. Permite tarefas como visual question answering, image captioning, cross-modal retrieval. Exemplos: CLIP, BLIP, LLaVA, GPT-4V. Representa fronteira emergente de PLN.</rdfs:comment>
+  <skos:altLabel>Multi-modal AI</skos:altLabel>
+</owl:Class>
+
 </rdf:RDF>

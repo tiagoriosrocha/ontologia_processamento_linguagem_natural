@@ -1,9 +1,25 @@
+"beb"
+"bebid"
+-ável
+.net/c#
+10 horas e 28 minutos de fala
+10 khz
+13311 palavras únicas
+151 hours
 1580-1640
+16 khz
+1879
 1949
 1957
+197 hours
+1970
 1972
+1975
+1976
 1978
+1980
 1983
+1985
 1988
 1990s
 1991
@@ -12,7 +28,11 @@
 1995
 1996
 1999
+20 khz
 2000
+2001
+2001-07-02
+2002
 2003
 2004
 2005
@@ -21,87 +41,255 @@
 2008
 2010
 2011
+2012
+2012b
 2013
 2016
 2017
 2018
 2019
 2020
+2020-08
 2021
 2022
 2023
+2024
+24 khz
+3,000 simple word list
+32 bits
+3632 arquivos de áudio
+48 khz
+71358 palavras faladas
+[kõpr’ ej]
+a
 a neural probabilistic language model
+abacate
+abney (1992)
+abordagem abstrativa
+abordagem baseada em am
+abordagem baseada em conceitos
 abordagem baseada em exemplos
+abordagem baseada em léxico de sentimento
 abordagem baseada em regras
 abordagem end-to-end
 abordagem estatística
+abordagem extrativa
 abordagem híbrida
 abordagem modular com documentos
 abordagem modular com grafo de conhecimento
+abordagem profunda
+abordagem superficial
+abordagem_hibrida
+abordagem_profunda
+abordagem_superficial
+abordagens baseadas em aprendizado de máquina não supervisionado
+abordagens baseadas em aprendizado de máquina supervisionado
 abordagens baseadas em corpus (empíricas)
 abordagens baseadas em dados
+abordagens baseadas em regras
 abordagens de avaliação
+abordagens modernas
+abordagens tradicionais
 abreu
+abreviação
+access
+account
+accuracy improvement techniques
 ace
 acento agudo
 acento circunflexo
 acento grave
 acervo
+acervo antigo
+acessibilidade terminológica
+acessibilidade textual
+acesso_a_informacao
 ackel (2021)
+acontecimento
+acoustic model
+acuracia
+acuracia_modelo
+adaptação textual
 addison-wesley
 adição de metadados
+adjetivo
+adolescente
+adolescente (brasil/eca)
 adoro cinema
+adulto
+advérbio
+aeneas
+afixo
+afixo derivacional
+afixo flexional
+agent de conversação
 agente
+agente computacional
+agente de conversação
+agente orientado a tarefas
 aggarwal
 agichtein
+agrupamento de aspectos para análise de sentimentos
+agrupamento de documentos
+agrônomo
+agrônomo miguel guerra
+ajuste fino
+akçay
 albuquerque et al., 2024
+alegria
+aleixo
+alfabetização
 algoritmo
+algoritmo baseado em frequência
+algoritmo computacional
+algoritmo de pln
+algoritmos de pln
+algoritmos para língua portuguesa
+alinhador fonético automático
+alinhamento
 alinhamento de palavras
+alip
 allen nlp
 almanaques
+alto nível
+aluno
+alunos
+aluísio
+am
+am (aprendizado de máquina)
+amazônia
+ambiente comunicativo
+ambiente especializado
+ambiguidade
 ambiguidade da linguagem natural
+ambiguidade das línguas
 ambiguity
+ameaças
+amigo
+amigável
 amostra aleatória
+amostragem
+amplitude
+amplitude do sinal
+ana
+anaforic expression
+analfabeto
+analisador de dependência probabilístico
 analisador de dependências
+analisador de stanford
+analisador semântico
+analisador sintático
 analisador sintático profundo
 analisador sintático raso
 analisadores sintáticos
+anaphora
+anaphora with coreference
+anaphora without coreference
+andar
+angola
+animal
+animal (example r)
 ano 1990
 ano 2600 ac
+anonimização
+anos 1920
 anos 1990
+anos 70
+anotacao_manual
 anotação de categorias
 anotação de corpora
 anotação de erros
+anotação de feats ou features morfológicas
 anotação de texto
 anotação lexical
 anotação morfológica
+antecedent
+antecedent-tree model
+antecedente
+antunes (2017)
+antônimos
+anáfora
 análise
+análise cognitiva
 análise de corpora
 análise de dependência sintática
+análise de sentimento
+análise de sentimentos
 análise e interpretação (nlu)
+análise emocional
 análise estatística
+análise linguística
+análise paralinguística
 análise semântica
+análise semântica latente
+análise sintática
+análise textual
+aone
 aperfeiçoamento de modelos
+api
+api do reddit
+api do twitter/x
+aplicação
+aplicação de pln em redes sociais
+aplicações de pln
+aplicações interessantes
+apoio semântico
+application
 apreciação dos resultados
 aprendizado de máquina
+aprendizado de máquina não supervisionado
+aprendizado de máquina supervisionado
 aprendizado de representação
 aprendizado sequência a sequência (seq2seq)
+aprendizado supervisionado
 aprendizagem de máquina
 aprendizagem de tokens
+aproximadamente 100 métricas
+arfé; mason; fajardo (2018)
+arg1
+arg2
 argoe
 arquitetura de redes neurais recursivas (rnn)
 arquitetura transformers
 arquiteturas neurais
+arquiteturas_neurais
 arquivo
+arquivo de áudio
 arquivo invertido
+art state in science
 article
+articuladores
+artificial intelligence
+artigo (determinante)
+artigos acadêmicos
+as em língua portuguesa
+asahara
 aspecto_semântico
+asr
+assistant de voz
+assistente
+assistente de voz
+assistente_virtual
+associação_entre_palavras
+assunto juridico
+assunto principal
+assuntos pessoais
+atores
+atributos morfológicos
+atributos_morfológicos
+audio collection tool
+audio segments
+audiolivros
 auto-atenção
 automatic content extraction (ace)
+automatic speech recognition
 automatic summarization
 automatic_evaluation_metrics
 automatização
+autor
 autoria
+autoridades
+auxílio ao cuidado ao paciente
 avaliação
 avaliação adequada
 avaliação automática
@@ -113,17 +301,44 @@ avaliação em pln
 avaliação humana
 avaliação quantitativa
 avaliação_black_box
+avaliação_de_complexidade
 avaliação_glass_box
+average fixation duration
+aversão
+ações de linguagem
+b05
+b05.0
+b05.1
+b2w-reviews01
 baeza-yates
 bag of words
 bahdanau, cho, bengio
 bahdanau; cho; bengio, 2015
+baixo nível
+balage filho
+banco de dados relacional
+bandidos
+banko et al. (2007)
 banko et al., 2007
+barco
+bard
+barrett; agic; søgaard, 2015
+barros, 2022
 bartscore
+base comum
+base conceitual
 base de conhecimento
+base de conhecimento de senso comum
 base de conhecimento estruturada
+base de conhecimento semântico
+base de sentenças-padrão
 bases de conhecimento
 bases de dados confiáveis
+bates et al. (1982)
+batista; dias; neto, 2022
+beber
+bebida
+bebidinhas
 beer
 benchmark
 bender (2009)
@@ -133,221 +348,670 @@ bengio; courville; vincent (2013)
 bergamota
 bert
 bert for mte
+bertsch et al. (2023)
 bertscore
 berwick_chomsky_2017
+betz
 bhardwaj
 biblioteca
+bibliotecas de análise sintática
 bibliotecas e ferramentas
 biblioteconomia
 bibliotecário
+bick
+biderman, 1978
+bidirectional encoder representations from transformers
 bigramas
+bilíngue
 bio scheme
+biotecnologia nacional
+biron et al., 2021
+bit
 blend
 bleu
 bleurt
+bobrow et al. (1977)
+boca de rua
 bojar et al., 2016
+boletins médicos
+bookcorpus
+boomerang
+bootstrapping
+bosque
 botany texts
 brasil
+brasil século 19
+brazilian researchers
+brennan
+brin
 brown et al. (1988)
 busca
 busca case-sensitive
 busca não case-sensitive
+business domain
+bäckström et al. (2022)
+c-oral–brasil i
+c-oral–brasil i and ii
+c4ai
 cabeçalho
+cabo verde
+cabral et al. (2021)
+cabral et al., 2021
 cabral; souza; claro (2022)
+cabré
+cachorro-quente
+cadeia de correferência
+cadeia_de_coreferencia
+caderno
 camada escondida
 cambridge university press
 cameron
+cameron; olival; vieira (2023)
 can artificial neural network learn language models?
+candido junior
+candido-junior
+capabilities_of_language_models
 capítulo 15
+capítulo 28
 capítulo 4
 caracteres
+característica longitudinal
+característica morfológica
+características identitárias
 carb
+carro
+carroll et al., 1998
 carvalho; matos; rocio, 2009
+casa
+casanova
+casanova et al., 2022
+casar
+casas
+caso
+castilho
 castilho et al., 2017b
 castilho et al., 2019
+cataphora
+categoria
 categoria de sistema de pr
 categoria gramatical
+categoria pos
+categorias liwc
+categorização
 categorização abstrata dos tipos básicos de tarefas
+catáfora
+caucaia
+cavidade bucal
 cedilha
+center for artificial intelligence
+cenário controlado
 cenário multilíngue
 cerebro_humano
+cetempúblico
 cetenfolha
+cetuc
+chamadas de voz e vídeo
+chandrasekar; doran; srinivas
+chapman
 character-based lexical metrics
+charles fillmore
+charles j. fillmore
 charniak
 chatbot
 chatgpt
+chatgpt_3.5
+chatterbot-corpus13
+chen_1976
+chorar
+choro
 chrf
+christiane fellbaum
+chunk
+chunker
+chunking
+cid
+cidade mais poluída do brasil
+cintil-udep
+civil law
+civilization
 ciência da computação
 ciência da informação
 ciência de dados
+clarin eric
+clark
 claro
+classe
+classe aberta
+classe de palavra (pos)
+classe fechada
+classe gramatical
+classes_de_palavras
 classificadores
+classificação
 classificação de pergunta
 classificação do tipo de pergunta
+classificação internacional de doenças
+classificação semântica
 classificação sequencial iterativa
 classificação textual
 classificação_de_pergunta
+clinical data
+cloroquiner
+cloze test
+cml-tts
+cnn
+cnpq
+co2 consumption
 cobertura
+cobrança pelo uso da api
+codificação de vieses
+coello; junqueira, 2019
+coerencia_textual
+coerência
+coesao_textual
+coesão
+coesão referencial
+coesão sequencial
+coesão textual
+coh-metrix
+coh-metrix-port
 cohen
+coisa
+coleta de conhecimento de senso comum
+coleta de dados
+coleta responsável de dados
 coleção de documentos
+coleção é só o começo
+collection
+collectivity
+collin f. baker
 collovini et al., 2019
+comando_de_voz
+comentário
 comentário adicionado
+comentários tóxicos
 comet
+comment
+commiting_crime
+common values
+common voice
+common voice corpus
+common voice corpus version 5.1
 comparação entre sistemas de ta ou versões de um mesmo sistema
+compartilhamento de mídia
+complementaridade
 completaçao_de_texto
 complex_question_answering
+complexidade inferencial
+complexidade lexical
+complexidade literal
+complexidade sintática
+complexidade temática/conceitual
+complexidade textual
+complexidade_cognitiva
+complexidade_linguistica
+complexidade_tematica
+complexidade_textual
+componentes cognitivos
+componentes emocionais
+componentes linguísticos
+comportamento em situações reais
 composicionalidade semântica
+composição
+composição por aglutinação
+composição por justaposição
+compreensão
+compreensão de texto
 compreensão mais abrangente dos sistemas de tradução automática
+compreensão textual
+comprei
 computador
 computação
+computer program
 comunicação
+comunicação técnico-científica
+comunidades
+comunidades de países menos desenvolvidos
+comunidades indígenas
+comunidades linguísticas minoritárias
 comunidades portuguesas na ásia
 concatenação de gramas menores
+conceito
 conceitos fundamentais
+conceitos_do_pln
+concept extraction
+conceptnet
 concepções computacionais envolvendo linguagem humana
+concordância_nominal
+concretude
+condição do paciente
+conexao_conceitual_cognitiva
+conexões
+conexões entre ideias
 confiabilidade da fonte
+confirmação
 conflito
+congresso nacional
+conhecimento compartilhado
+conhecimento de mundo
 conhecimento legível por humanos
 conhecimento linguístico
+conhecimento privado
+conhecimento prévio
+conhecimento prévio do leitor
+conhecimento_de_mundo
 conjunction
+conjunto
 conjunto de dados
 conjunto de dados anotados
 conjunto de rótulos
 conjunto_de_textos
 conjuntos de dados
+conjuntos_de_dados
+conjunção
+conjunções
+connectives
 connl
+consoante [l]
+consoante [lh]
+constituency parsing
+constituição do brasil
+constituição do brasil de 1988
+constituição federal
+construção da narrativa resumida
 consulta
 consulta de um usuário
 consulta sparql
+contagem de coocorrência
 contagem de palavras
+contagem_de_tokens
 context
+contexto
+contexto jurídico
 contexto linguístico
 contexto maior
 contextual embedding
 contextualized embedding
+conteúdo
+conteúdos postados em redes sociais
+contraction
+contradição
 convencimento
+convenção ortográfica
+conversational agent
+conversational_agents
+conversão de sinal analógico para digital
+conversão de textos em valores numéricos
+conversão do sinal
 conversão para minúscula
 coocorrência
+cooling tower
+copilot
+coraa
+coraa asr
+coraa asr v1.1
+coraa mupe
+coraa mupe test set
+coraa nurc-sp
+coraa ser v1.0
+coraa-ser
+coreference
+coreference resolution
+coreixas
+coreixas (2010)
+cornu
 coroa portuguesa
+corp
+corpop
 corpora
+corpora anotados
 corpora bilíngues
+corpora de áudio e texto
 corpora paralelos
 corpus
+corpus anotado
 corpus de avaliação
+corpus de português brasileiro anotado prosodicamente
 corpus de teste
 corpus de treinamento
 corpus documental
+corpus específico da área
+corpus internacional do português – cintil
+corpus mínimo do nurc-sp
+corpus nurc
 corpus não lematizado
+corpus paralelo de treinamento
 corpus paralelos
+corpus sobre a doença de parkinson
+corpus sobre oncologia
+corpus veredas
+correferencia
+correferência
+correção
 correção de translineação/hifenização
 correção manual
+corrrelato dos fones
 cortes et al., 2020
 cortes; woloszyn; barone, 2018
+cosseno
+country
 cove
+covost
 cowie
+cplp
 cpu
 crf
+crianç
 criança
+criança (brasil/eca)
+criança (oms)
+crimes contra mulheres
+criminoso
+critério de avaliação
 critérios de normalização
+critérios de outra natureza
+critérios para reconhecer ocorrência de relações
 croft
 cronologia
+cross-document structure theory
+cross-language
 cross-lingual embedding
+crítica_social_política
+csikszentmihalyi
+cstnews
+csttool
+ctc
+cubatão
+cucchiarelli
 cudré-mauroux
 cui; wei; zhou (2018)
+culotta
+cultura acadêmica
+cunha
+cunha, 2015
+custo energetico
 custos
+cyc
+cão
+código
+código da vinci
+dadico
+dados
 dados abertos ligados
+dados anotados
+dados clínicos
+dados coletados na internet
 dados confiáveis
+dados em língua portuguesa
+dados estruturados
 dados geográficos
+dados não estruturados
 dados originais
+dados semiestruturados
+dados_treino_grandes
+dale-chall formula
+dante
 data
+data augmentation
 data_augmentation
+data_de_cirurgia
 datas
 date 1968
 date 1980
 date: 2022-12
+day after (example t)
+dbase
 dbpedia
+de paiva et al., 2016
+decision making
+decision support system
+decomposição em valores singulares
 deep learning
+deep parsing
 deep_learning
+definição de conceitos
 definição do problema
 dejong
 del corro
+delimitação de fronteiras prosódicas
+delimiter
+dell’orletta, montemagni, venturi
+dell’orletta; montemagni; venturi (2011)
+demner-fushman
+democratização da web
+depclinbr
+dependency parsing
 dependentie
 dependência de longa distância
 depoe
 deppattern
+derivação
+derivação_imprópria
+derivação_parassintética
+derivação_prefixal
+derivação_regressiva
+derivação_sufixal
+desafios em pln para redes sociais
+desambiguação de sentidos
+descriptive
 desempenho dos sistemas de tradução
 desenvolvedor
 desenvolvimento
 desenvolvimento de software
 desenvolvimento e implementação de sistemas de ta
 design de experimentos
+desinformação
+desinência
+desmatamento
+detalhamento
+detecção automatizada de discurso de ódio
+detecção de discurso de ódio
+detecção de discurso de ódio e linguagem ofensiva
+detecção de ironia/sarcasmo/humor
+detecção de limite de sentença
+detecção de linguagem ofensiva
+detecção de notícias falsas
 detecção de plágio
+detecção de postura
+detecção de sotaques
+detecção do limite de sentença
+diagnósticos
+diarização de fala
 dicionário
+difamação
+dificuldade na sumarização automática
+digitalizacao
 digitalização
 digitalização de documentos
 digitalização de manuscritos
+digitalização de áudio
+dimensionalidade
+dimensão
+dimensão linguística
+dipre
 direito
+direito brasileiro
+direito civil
+direito civil do brasil
+direito criminal
+direito das crianças
+direito internacional
+direito no brasil
+direito penal
+direitos das crianças no brasil
+disambiguation
+discriminação
+discriminação de conteúdo
+discurso
+discurso de ódio
+discurso simbolicamente prejudicial
+discurso tóxico
+discursos jurídicos
+disease
+disfluência
+distribuição de fones
+distribuição em textos
+distância euclidiana
+divisão de sentenças longas
 divisão em sentenças
+divulgação
+diálogo
+diário da causa operária
+diário gaúcho
 document
 document sentence splitting
 documento
+documento escrito
 documento relevante
 documentos
 documentos candidatos
+documentos jurídicos
 doenças
+dog
+domínio bio-médico
 domínio da tradução automática
+domínio de códigos de programação
+domínio especializado
+domínio específico
+domínio jornalístico
+domínio jurídico
+domínios de conhecimento particulares
 dptoie
+dualidade funcional/lexical
+dubay
+dubay, 2007
+duração_de_sintoma
+duração_discrepante
 dyer
 década de 1960
 década de 1970
 década de 1980
+década de 1990
+década de 2000
+décadas de 2000
+décimo terceiro salário
+earl (1970)
+eca
+economia
+edgard dale
+edge (conceptnet)
 edit distance
 edit distance metrics
+edmundson (1969)
+educacao
+educação
 eficiência
 eficiência de treinamento
 eficácia
 eia
 eisenstein
+el ayadi
+ela (example s)
+elaboração textual
+elas
+ele
+electronic health record
+elementar
 elmo
 embedding
 embedding de sentença
 embedding de token
 embedding estático
 embeddings contextualizados
+embora
+emissao de carbono
 emojis
+emoção
+empresa
+encaminhamento de mensagens
+encefalite
+encoder_decoder
 endereços de email
+enem exams 2015-2017
+english
+english language
+english varieties
+ensinar_a_ler
+ensino
+ensino fundamental i
+ensino fundamental ii
+ensino medio
+ensino superior
 entidade
+entidade local
 entidade nomeada
+entidade organização
+entidade pessoa
+entidade_relacionamento
 entidades nomeadas
 entidades políticas asiáticas
 entrada
+enunciado
+enviesamento
+equação 10.6
 equipe de linguistas/tradutores
 equivalência semântica
 er
+erro
+erro de grafia
+escala fres
+escala mel
+escola
 escolha do método
 escolha dos avaliadores
+escolhas_morfológicas
 espanhol
 espaço semântico
 espaço semântico multidimensional
 espaço vetorial
+especificidades linguísticas e culturais
+estabelecimento de saúde
+estado da arte
 estado da índia português
+estado de fluxo
+estatuto da criança e do adolescente
+estatísticas comuns do texto
+estilo
+estilo de linguagem
+estratégia
+estratégias baseadas em regras
 estratégias computacionais
 estratégias híbridas
 estrutura do documento
 estrutura encoder-decoder
+estrutura_sintática
+estruturação
+estudante_em_aprendizagem
+estudos_do_discurso
+estudos_históricos
 etapa de processamento
 etapas intermediárias
+ethics
 ethics in artificial intelligence
+etiqueta (tag)
 etiquetador
+etiquetagem morfossintática
 etzioni
+eufemismo
 europarl
+europe trip (example t)
 evento
+evento_médico
 eventos
+evocation
+evolução das tecnologias
+evolução do quadro clínico do paciente
+exames_realizados
 example-based machine translation
+example_9.1
 exclusão e inserção de palavras
 exemplo anotado
 experimento de georgetown
+experiência e conhecimento clínico
+expressão_temporal
+expressões referenciais
 expressões regulares
+extraction methods
 extração automática de eventos
 extração conjunta
 extração de entidades e relações
@@ -358,45 +1022,141 @@ extração de informação aberta
 extração de informação automatizada
 extração de informação tradicional
 extração de informações
+extração de informações do sinal
+extração de informações semânticas
+extração de métricas
+extração de palavras-chave por frequências de radicais (epc-r)
 extração de pedaços de texto
 extração de relações
+extração de relações temporais
 extração de respostas candidatas
 extração sequencial
+extração_de_informação
+extração_de_informações_significativas_para_diagnóstico
 extrações válidas
+eye-tracking data
 f-measure
 f1
 f1-score superior a 90%
+facebook
+facilita
+faculdade de letras da ufmg
 fader
+faixas etárias
+fala
+fala espontânea
+fala lida
+fala_espontanea
+fala_menos_articulada
+falante nurc-sp
 falha
+familiaridade
+fapesp
+faringe
+fases de avaliação
+fases de treinamento
+fato principal
+faust
+features
+feed
 feedback de usuários anteriores
+feltrin; vianna; silva, 2023
+fennelly et al., 2021
 fenômeno complexo
+fenômenos linguísticos
 fenômenos linguísticos complexos
 fernández-lanza
 ferramenta de pln
+ferramenta para interação educacional
 ferramentas de anotação de texto
 ferramentas de análise
+ferramentas de análise de texto
+ferreira et al., 2017
+ferritina
+festa de santo antônio
+fft (fast fourier transform)
+fidalgo
+figuras de linguagem
+filho
+filtragem
 filtro de informações
+filtro de sentenças favoráveis
+filtros logaritmicamente diferentes
+filósofo
+finanças
+finatto
+finatto; paraguassu, 2022
+fine-tuning
+fine_2017
+first fixation duration
+first pass fixation duration
+fixações
+flesch formula
+flesch reading ease
+flesch reading-ease score
+flesch–kincaid grade level
+flexão
+flexões de modo dos verbos
+flexões de tempo
+flexões_verbais
+floresta sintá(c)tica
+floresta virgem
 florian et al. (2003)
 folha de são paulo
+folha de são paulo/kaggle
+follow
+fone
+fonema
+fonoaudiologia
+fonologia
+fonseca
+fonseca; vieira; vanin (2014)
 fonte
 fonte conectada
 fonte textual
 fontes de informação confiáveis
 fontes textuais
+fonética
 forcada
+forma
 formalismo de representação semântica
 formalismos
 formalizações
+formatação de dados
+formato json
+formato linguístico
 formato numérico
+formação de palavras
 formulação teórica de tarefas de pln
+fortuna
+foto
+frame
+frame semantics
+framenet
+frames
 frase
 freebase
+frequencias_na_escala_mel
+frequency
+frequência das palavras
+frequência de ocorrência
+frequência de palavra
+frequência de termo
+frequência inversa no documento
+frequência máxima registrada
+frequências do sinal
+frequências mais altas
+frequências mais baixas
 friedman
 frump
+frutas
+funcionários
 função de agregação
 função de ativação
 função de perda
 função de probabilidade
+função hamming
+fórmulas_clássicas
 gabarito
 gabaritos
 gabaritos-padrão
@@ -405,283 +1165,762 @@ gamallo
 gamallo, garcia
 gamallo; garcia
 gamallo; garcia, 2015
+games with a purpose
 garcia
+gasperin
+gazzola; leal; aluisio (2019)
 gemulla
 geologia
+george a. miller
 gerard salton
+gerative language model
 geração (nlg)
 geração de consulta
 geração de embeddings
 geração de texto
+gestão do cuidado do paciente
+ghosh et al., 2015
+gibbs; colston
+ginzburg
+girassol
+gistsumm
+github
 glauber
 glauber et al., 2018
 glauber; claro; oliveira, 2019
+glote
+goel
+gold standard
+gonçalo oliveira, 2014
 goodfellow, bengio, courville (2016)
 goodfellow_bengio_courville_2016
 google
+google cloud
 google tradutor
 gotti
 gpt
+gpt-3
 gpu
+graesser
 grafo de conhecimento
+gramática
+grandes modelos de língua
+grandes_modelos_de_linguagem
+grau de confiança
+grau de interesse
+gravador do celular
 gravano
+gravação
+gravação sem isolamento acústico
+gravações nurc-sp
+grice
 grishman
 grishman; sundheim, 1996
 growth of computing power and data storage
+grupo de leitores
+grupo de pesquisa em sistemas inteligentes (gsi)
 grupo de pessoas
+grupos de conversação
 grupos de pesquisa
+grupos vulneráveis
+guarda-chuva
+guarino; guizzardi (2015)
+guarino_guizzardi_2015
+guerra
+guiné-bissau
+gumiel et al., 2021
+gênero
+gênero discursivo
+habilidade de leitura
+habilidades cognitivas humanas complexas
 hans peter luhn
+hapke; howard; lane, 2019
 hardware
 harem
+harem corpus
 hasegawa
 hassan et al. (2018)
+healthcare professional
 hearst
 heikkilä, 2021
 heil
+heim_2008
 hiperdicionário
+hiperônimos
+hipérbole
 hipótese distribucional
 historiadores
 história da avaliação de tradução automática
 história do futuro
+história do paciente
+hmm
 holanda
+homem
 hornik, stinchcombe, white (1989)
 howe
 hter
 htr (handwritten text recognition)
+human
 human_evaluation
 humanidades digitais
+humano
+humor
 hutchins, 2001
+hybrid model
 hypothesis
+ia
 iberlef 2019
 ibm
+idade de aquisição
+identificação
+identificação de conteúdo falso
+identificação de conteúdo relevante
 identificação de deficiências
+identificação de estilos de escrita
+identificação de tendências
 identificação sequencial de entidades e relações
 idioma
 idiomas com recursos limitados
+idoso
 idsay
+imageabilidade
 imagem digital
 implantação de sistemas nmt
 implementação do método
 implicit_relationships
+importância relativa
+imprevisibilidade
+império
+inaf
+inception
+incerteza
 incompatibilidade de vocabulário
+indeterminação terminológica
 indexação
+indicador de alfabetismo funcional
+individual
+indivíduo
+indivíduos pertencentes ao grupo-alvo
 indústria de tradução
 ineficiência_no_treinamento_antigo
 inferreverbpt
+inferência
 inferência complexa
+inferência textual
+infixo
+informacoes_na_superficie_textual
 information extraction
 information loss
 information retrieval
+informação
+informação contextual
 informação simbólica
 informação textual
+informações clínicas
+informações de frequência
+informações falsas
+informações iniciais
 informações morfológicas
 informações sintáticas
 inglaterra
 inglês
+ingredient list
+iniciativa coletiva
+iniciativa_de_governo_educacional
+iniciativa_isolada
+instagram
+instituicao publica ou privada
 instituição
+instituto camões
+instituto de ciências matemáticas e de computação da universidade de são paulo (icmc-usp)
+insultos
+inteligibilidade
+inteligibilidade textual
 inteligência artificial
+intenção de postagem
+interatividade
 interdependência entre tarefas
+interesse
+interest area
+interface simples e amigável
+intermediário
+internationalization tool
 internet
+interoperabilidade
 interpretability
 interpretação
+interpretação de dados clínicos
+interpretação de textos
+interpretação jurídica
 introduction to information retrieval
+inverse document frequency
+inversão de fatos
+início da década de 90
+ipm, 2018
+ironía
+item lexical
+j. peter kincaid
+janela
+janela de 10 ms
+janela de palavras
+janelamento
+java
+jeanne chall
+jiang et al., 2020
+jmdict
+jocosidade
+john b. lowe
 jones
 jornalista
+joão
+julgmento clínico humano
 julie beth lovins
+julião
 jurafsky
+jurafsky and martin 2023
+jurafsky e martin
+jurafsky; martin, 2023
+jurilinguística
+jurisprudência
+juízes
 kahle et al. (2017)
+kambhatla
+kamel
 karen spärck jones
+karray
+keyword
+kim et al. 2020
+kim, kong, son 2021
+knowledge base
+knowledge graph
+koch_travaglia_2012
 koehn
 koehn (2020)
 konstantinova, 2014
+kruse; barbosa, 2021
+kulikowich
+kumar et al. (2023)
+kyle, jose, sotelo 2017
+label
+laboratório de interação avançada
+lamda
 langlais
 language model
+language_games
 language_model
+language_models_2023
+lapsbm
+lapsbm 1.42
+large language models
+laringe
+latent semantic analysis
+latência
+law regulating moto-taxista and motoboy activities
+leal
+lee et al., 2019
 lee et al., 2023
+legibilidade
+legislação infraconstitucional
 lehnert; sundheim (1991)
+lei 8.069-90
+lei estadual
+lei municipal
+leis
+leite et al. (2020)
+leitor
+leitor humano
+leitura
+leitura de textos
+leiturabilidade
+lema
+lematização
+letramento
+lewis
+lexema
+lexia
+lexical complexity
+lexical diversity
 lexical features
+li
+li et al. (2023)
+librispeech asr corpus
+libritts
+libritts corpus
+libritts-r
+libritts-r corpus
+librivox
+like
+limitação de escopo
 limitação de ordenação
+limite textual
+limites claros de enunciado
+limpeza dos dados
+limpeza_de_áudios
+limpeza_do_texto
 lin
 linguagem
+linguagem cartorária
+linguagem convencional
 linguagem de programação
+linguagem doutrinária
 linguagem especializada de domínio
 linguagem gestual
+linguagem judiciária
+linguagem jurídica
+linguagem legislativa
 linguagem matemática
+linguagem ofensiva
 linguagem visual
+linguagem_jurídica_brasileira
+linguagens naturais
 linguakit
 linguakit2
 linguateca
+linguistic research
+linguistic_activities
+linguistica_cognitiva
+linguística
 linguística computacional
+linguística de corpus
+linha do tempo do paciente
 linking verb
+lista
 lista de respostas candidatas
+lista de substantivos comuns
+lista-referência da língua
+lista_de_menções
 liu; yao; lin (2019)
+live
+liveso
+livro
+livros-texto
+liwc
+lj speech
+lj speech corpus
+llm
+llms
 locais
 local
+locutor masculino não profissional nativo
 long short-term memory
 lovins stemmer
+low-resource languages
 low_resourced_language
+lsa
+luhn (1958)
+luiz inácio lula da silva
 luong; pham; manning, 2015
+lx-depparser
 lx-tagger
+lx-udparser
 lyman
 läubli; sennrich; volk, 2018
 léchelle
+léxico
+léxico comum
 léxico da obra
+léxico especializado
 língua
 língua alvo
+língua de sinais
 língua escrita
 língua fonte
 língua inglesa
 língua materna
 língua portuguesa
+língua sem delimitação por pontuação
 língua-alvo
 língua-fonte
+línguas indígenas
+línguas indígenas do brasil
+lógica de primeira ordem
+lógica descritiva
+lógicas intensionais
 maas
+mac-morpho
+machado de assis
+machine
 machine translation automatic metrics
 machine_translation
+maciel
 malenchini et al., 2019
+mamão
+mandarin language
 manga
+mani; maybury, 1999
 manning
 manuscrito
 manuscrito de padre antónio vieira
+manuscritos jurídicos
 manutenção e atualização do grafo de conhecimento
+mapeamento
+mapeamento de terminologia
+marcacini
+marcadores discursivos
+marcadores_discursivos
+marcação de parte do discurso
+marcações de classe de palavras
+marco histórico
 marcu
+margarido et al., 2008
+maria
+maria costa
+maritalk
+marketing
 martin
 martin porter
+martins et al.
+marvin minsky
+massa
+mata
 material transcrito
+matriz de coocorrência
+matriz de termo-contexto
+matriz esparsa
+matriz termo-contexto
+matriz termo-documento
 matriz_de_pesos
+matsumoto
 mausam
+max, 2006
+mazumder et al., 2021
+mccallum
+mccrae et al. (2019)
+mcdonald
+mcnamara
 meaning
 meant
 mecanismo de atenção
 mecanismo de gate
 mechanismo de atenção geral
+medialab
+medialab mit
+mediation of differences
 medical records
+medicamentos_em_uso
+medicina legal
+medida de raridade
+medida de similaridade
+medo
+medsimples
+meio-dia
+melancia
+mello
+meme
+memory
+memória
+menin
+meninada
+meninas
+meningite
+meninice
+menino
+mensagens privadas
 mensuração da qualidade final de sistemas de ta
+menção
+menção_a_sinais
+menção_a_sintomas
+menção_a_tratamentos_passados
+meta
 metadados
 metalíngua
 meteor
 metodologia de análise semi-automática
+metodologias para avaliar sistemas
 metzler
 mexerica
 meyer et al., 2003
+microblogging
+microfone
+microsoft
+miguel guerra
 miikkulainen
+miipher
+mineração de dados
 mineração de textos
+miscelânea
+mit
+modelagem conceitual
+modelagem da fala
+modelagem de linguagem mascarada
 modelo
 modelo booleano
 modelo clássico de ri
+modelo competitivo
 modelo de aplicação de regras
 modelo de geração de linguagem natural
 modelo de linguagem
 modelo de língua
 modelo de recuperação
+modelo de resolução de correferência
 modelo de ri
 modelo de tradução
 modelo n-grama
 modelo preditivo
+modelo pré-treinado
+modelo semântico distribucional
 modelo sequencial
 modelo supervisionado
 modelo vetorial
+modelo_acustico
+modelo_asr
+modelo_de_lingua
 modelo_de_linguagem
 modelo_de_ren
+modelo_especifico_asr
+modelo_geral_asr
+modelo_lexical
+modelo_reconhecimento_fala_end_to_end
 modelos clássicos
+modelos de análise sintática
 modelos de aprendizado de máquina
+modelos de aprendizado profundo
+modelos de aprendizado supervisionado
 modelos de geração de texto
 modelos de linguagem
 modelos de linguagem neurais
 modelos de linguagem pré-treinados
+modelos de língua
 modelos de pln
 modelos de sumarização
+modelos específicos
 modelos mais custosos
+modelos modestos
 modelos neurais
+modelos preditivos
+modelos treinados em domínio específico
 modelos_de_linguagem_anteriores
 modelos_de_linguagem_baseados_em_redes_neurais
+modelos_estatisticos_hibridos
+modelos_pnl_saude
 modern information retrieval (versão resumida, português)
 modern information retrieval - the concepts and technology behind search
+modo
+moeda
+monologic male speech excerpts
+montoro
 moorkens, 2017
+morfema
+morfema gramatical
+morfema lexical
+morfologia
+morfossintaxe
 moses smt toolkit
+mota
 mother
+motivação
+motivação da audiência
 motor de busca
+motor de inferência
+motta
+movimento dos olhos
+movimentos dos olhos
+mozilla foundation
+moçambique
+msd
 muc-2
 muc-3
 muc-6
 mudança de estado
+mulher
+multilingual librispeech (mls)
+multilingual spoken corpus
+multilíngue
 multiple_correct_translations
+museu da pessoa
+museu da pessoa (mupe) corpus
 mv-rnn
+mysql
 mãe
+método
 método de avaliação
+método de identificação de estruturas complexas
+método de simplificação linguística
 método para ranquear respostas candidatas
 métodos baseados em conhecimento
 métodos baseados em dados
+métodos baseados na superfície textual
+métodos de aprendizado de máquina
+métodos de sumarização extrativa
 métodos distribucionais estáticos
+métodos linguisticamente motivados
+métodos simbólicos
 métodos supervisionados
+métodos tradicionais de extração de informação
+métrica
 métrica automática
 métrica de rendimento
+métrica rouge
 métrica_de_similaridade
 métricas de avaliação automática (maas)
+métricas de movimentos oculares
 métricas de performance
 métricas de qualidade
 métricas de referência
+métricas objetivas
+métricas_de_rastreamento_ocular
+métricas_linguísticas
+métricas_psicolinguísticas
+módulo de pós-processamento
 n-gram
 n-gram similarity
 n-grama
+n_grama
+nadeau
 nadeau, 2007
 nagao (1984)
 nair; jeeven, 2004
+named entities
 named entity
 named entity recognition
+narrativa
+narrativa socio-histórica
+narrativas clínicas
+narrativas_clinicas
 nasar; jaffry; malik, 2021
+natural language
+natural language inference (nli)
 natural language processing
+natural_language_processing
 natureza temporal
+needs
+nerp-crf (amaral, 2013)
 neural machine translation
 neural machine translation (nmt)
 neural_machine_translation_system
+neuralmind
 neurônio artificial
+neutral
+newman et al. (2020)
 news texts
+newsela
 ney
+ng
 nilc
 nina da hora
 nist
+nivel_ideal_de_complexidade
+nlp
+nlp in social media
+nlp2
 nltk
 nlu
+noise addition
+non-neutral-female
+non-neutral-male
 normalização
 normalização automatizada
 normalização da grafia do texto
+normalização de textos
 normalização textual
 nota de rodapé
+notas de evolução de enfermagem
+notas em texto livre
+notas_de_ambulatorio
+notas_de_evolucao_de_enfermagem
+notícias da seção para seu filho ler (psfl)
+notícias falsas
+nova realidade das aplicações
+nuclear reactor
+number of fixations
 numbers
 numeração de páginas
+nunes
+nurc digital
+nurc – norma urbana linguística culta
+nurc-recife
+nurc-sp
+nurc-são paulo
+nuvem
 níveis de relevância
+nível de letramento
+núcleo interinstitucional de linguística computacional (nilc)
+número
+o (pronome)
+o agrônomo
+o bruxo do cosme velho
+o dia está claro
+objetivos
+objeto
+obra
 obras de vieira
+obtenção de algo
+ocaml
 oceano índico
 och
 ocr
 oie
 oie2016
+olhou-o
 olival
+oliveira
+oliveira et al., 2022
+oliveira et al., 2023
 oliveira, claro, souza
 oliveira; claro; souza
 oliveira; claro; souza, 2022
+omissão de informação
+ondas sonoras
+onto.pt
+ontologia
 ontologias
 onu
 open ie
 open information extraction
+open mind common sense
+open mind common sense – brasil
+open multilingual wordnet
+open source projects
+open speech and language resources
 openai
+opencyc
+openie
+openwordnet-pt14
 operação de mean pooling
 operações de pré-processamento e indexação
+opisums-pt
+oração
 ordem das palavras
+organização
+organização de dados clínicos
 organização de fontes
+organização mundial da saúde
+organização_das_palavras_em_uma_sentença
 organizações
+orkut
+oráculo
+osf
+osx
 outro
+ovchinnikova (2012)
+oğuz
+paciente
+pacientes
 padre antónio vieira
+padronização de termos
+padrões
 padrões de hearst
+padrões e relacionamentos entre dados
 padrões para extração de relações
+paiola, 2022
 palavra
+palavra composta
+palavra comum
+palavra de conteúdo
+palavra derivada
+palavra funcional/gramatical
+palavra lexical
 palavra relacionada com ação
 palavra-chave
 palavra_correta
 palavras
+palavras associadas
+palavras ofensivas
+palavras parser
 palavras-chave
 paleografia
+pandemia de covid-19
+papéis semânticos
 paradigma de avaliação
 paradigma de fluência-adequação
 paradigma de pós-edição
@@ -690,234 +1929,643 @@ paradigma híbrido
 paradigma linguístico (baseado em regras e interlíngua)
 paradigma neural
 paradigma simbólico
+paraguassu et al., 2020
 paralelização
+pardo
 paridade humana
+parser
+parser lx
+parser palavras
+parsing
+parsing parcial
+part_of_speech
 partes do corpo
 participante
+pasqualini
+passagem de ar
+passatempo
 patient health states
+pattern identification
+paul ekman
+pausa na comunicação
 pdf
+pennebaker et al., 2015
+percepção humana
 pereira
+pereira (2021)
 perfis de pessoas/doentes
 performance de sistema
 pergunta
 pergunta de entrada
 pergunta do usuário
 pergunta e resposta (pr)
+pergunta retórica
 perguntas
 perguntas e respostas
 perguntas factuais
 period
+perl
 perspectiva computacional
 perspectiva linguística
+período
+período_colonial
 peso
+peso_por_regra
+pesos dos neurônios
 pesquisa em humanidades digitais
+pesquisa em pln
+pesquisa em simplificação textual
 pesquisa em tradução automática
+pesquisa_filológica
+pesquisa_linguística
+pesquisador
+pesquisador_empresa
+pesquisadores
+pesquisas linguísticas
 pessoa
 pessoas
+pessoas com baixo letramento
+petri
+phonetic-acoustic parameters
+php
 phrase-based statistical machine translation (pbsmt)
+ping et al. 2017
 pinheiro
+placas gráficas
+planalto
+planejamento da assistência
+plano de investimento governamental
+planos pagos
 plant properties
+plataforma
+plataforma mec de recursos educacionais digitais
 pln
+pln (processamento de linguagem natural)
 pln e humanidades digitais
+pln em redes sociais
+pln fala
+pln na saúde
+pln no direito
+pln techniques
+pln texto
+pmi
+poder executivo
+poder judiciário
+poder legislativo
+poesio; stuckardt; versley, 2016
+poetisa
+polaridade
+policiais
 polissemia
+política
+pontes; oliveira; assis boldt, 2022
 pontuação
+pontuação delimitadora
+populacao_adulta_com_dificuldade_de_leitura
+population statistics
+porpopular
+porsimples
+portal web de disponibilização de corpus
+portaria
 porter stemmer
 portnoie
+porto alegre
+porttinari
+porttinari-base
+portugal
 portuguese
 portuguese (brazilian variant)
 portuguese (european variant)
+portuguese language
+portuguese researchers
+portuguese speech data
 portuguese_language
+portuguese_lexical_semantic_bases
 portugueses
 português
 português brasileiro
+português escrito
+português europeu
 português seiscentista
 português século xvii
+portulan clarin
 portulan-clarin
 pos
 pos tagger
+postagem
 potências europeias
+pre-trained models
 precision
 precisão
+predictor
 predição
 predição da qualidade da tradução
+predição de pontuações automáticas
+predição_da_complexidade
+prefixo
+pregas vocais
+prejuizo_pedagogico
 premissa de frequência de termos
 premissa de raridade de termos
 preparação de texto
+preparação do corpus coraa-ser
+prepared speech
 preposition
+preposição
 presidente do brasil
+pressão
+previsão da próxima frase
 previsão do próximo caractere
+primeira conjugação verbal
+primeira era da pesquisa
+primeira ordem
 primeira transcrição
 primeiro_token
+princeton university
+princeton wordnet
 princípios fair
 princípios léxicos
 princípios semânticos
 princípios sintáticos
 probabilidade
+probabilidade de coocorrência
 probabilidade de sequência de palavras não vista
+probabilidade independente
+problema
+problemas de comparação de métodos
 procesamento de linguagem natural
 processamento
 processamento avançado de texto
+processamento da fala
 processamento da resposta
 processamento de caracteres
+processamento de fala
 processamento de linguagem natural
 processamento de linguagem natural: conceitos, técnicas e aplicações em português
+processamento de sinais
+processamento de textos
+processamento de textos falados
+processamento de textos jurídicos
+processamento do conteúdo dos textos
+processamento do cérebro
 processamento morfossintático
+processamento sintático
 processamento_de_linguagem
+processamento_de_linguagem_natural
 processo de pr
 processos
+processos de flexão
+processos de tomada de decisão
+processos judiciais digitais
+processos psicológicos
+processos_criminais
+produto
+professor
+professores
+proficiente
+profissionais de saúde
 profissional do direito
+programa
+programação
+programação em lógica
+programming language
+progressão textual
+proindl
+project c-oral–brasil
+project tarsila
 projeto de humanidades digitais com pln
 projeto monsoon: o estado da índia habsburgo em perspectiva digital (1580-1640)
+projeto nurc
+projeto porpopular
+projeto tarsila
 projeto unl
+prolog
+pronome
+prontuário eletrônico do paciente
+pronúncia
 propagação de erros
+propbank
+propor
+proposição
+proposição de alternativas
 propostas conjuntas de extração de entidades e relações
+propriedade
+propriedades do sinal
 propriedades_internas
+prosodic boundary detection
+prosodic features
+prosperity
 provedores de tradução automática
+proximidade com a realidade
 práticas atuais em avaliação de ta
+práticas de escrita jurídica
+práticas educacionais
 pré-processamento
 próximos anos
+psicolinguistica
+publication
+pucpr
+pulo
 punctuation characters
+pwn 3.0
+pwn 3.1
+python
+público-alvo
 qualidade da tradução automática
 qualidade de tradução quase perfeita
+quality of speech synthesis
+quantização
+question_answering
+questões linguísticas
+quintanilha; netto; biscainho, 2020
+radev
 radical
+radicalização
 raghavan
+rahman
+raiva
+raiz
+ranchhod
 ranqueamento de respostas candidatas
 ranqueamento de segmentos
 ranqueamento neural
+raso
+rastreamento de transtorno mental
+rastreamento ocular
+rastros
 rau, 1991
+rayner (1998)
+read et al., 2012
+read speech
+readability
+readability measures
+realização de previsões
 recall
+recife
+recipe suggestion
+reconhecimento automático de fala
+reconhecimento automático de fala (asr)
+reconhecimento de emoções
+reconhecimento de emoções a partir da fala
+reconhecimento de emoções em áudio
 reconhecimento de entidades
 reconhecimento de entidades nomeadas
+reconhecimento de entidades nomeadas (ren)
+reconhecimento de fala
+reconhecimento de locutor
+reconhecimento terminológico (rt)
+reconhecimento_de_fala
+recuero
 recuperação ad hoc
+recuperação da informação
 recuperação de documentos
 recuperação de informação
 recuperação de informações
+recuperação de informações biomédicas
 recuperação de sentenças
+recurso linguístico
 recursos bilíngues
+recursos de fala
+recursos empresariais
+recursos escassos
 recursos linguísticos
+recursos léxicos
+recursos para pln em português
+reddit
+rede
 rede neural
 rede neural artificial
+rede semântica
+rede social
 rede_neural
+rede_neural_de_reconhecimento_de_fala
 redes neurais
 redes neurais artificiais
 redes neurais convolucionais
+redes neurais de aprendizado profundo
 redes neurais end-to-end
+redes neurais generativas
 redes neurais recorrentes
 redes recorrentes
+redes semânticas
+redes sociais
+redes_neurais
+redundância
+redundância textual
+redução de informação
 reference translation
+referential cohesion
+regexp parser
+registro eletrônico de saúde
+registros eletrônicos de saúde
+regra
 regra de concordância de gênero em português
 regras de domínio específico
 regras de extração
 regras e léxicos
 regras lexico-sintáticas
+regression
+regression path duration
+regulation of behavior
+rel
+relacao_entre_sentencas
 relacionamento
+relatividade
 relatório alpac
+relação
 relação de hiponímia
+relação endofórica
+relação entre entidades
+relação exofórica
+relação referencial
+relações
+relações semânticas
+relações sintáticas
 relevância
 relevância binária
 relevância de uma resposta candidata
 relp
 relp_eia_ren
+rembrandt named entity recognizer
 remoção de sinais diacríticos
 remédios
 ren
+renata silva
+reparo
+repentino (sarmento; pinto; cabral, 2006)
+repetição
 replicabilidade
 report
+reposicionamento do olhar
 repositórios de conhecimento
+representacao_do_discurso
+representatividade dialetal
 representação da realidade
+representação de conteúdos
+representação digital da onda
 representação distribuída
 representação final
+representação numérica
 representação por indexação
+representação semântica
 representações vetoriais
+resende et al. (2019)
+resenhas online de livros
+resolucao_de_coreferencia
+resolução de correferência
 responsabilidade
+responsibility
 resposta
+resposta a perguntas
 resposta automática a perguntas
 resposta candidata
+respostas aceitáveis
 respostas baseadas em padrões
 respostas longas
 respostas mais comuns
+ressonâncias
+rest
+restauração de fala
+restrições da versão gratuita
+resultado
+resultado_abarcante_na_educacao
+resultado_de_exame
+resultados
+resumo
+retextualizacao
 retirada de cabeçalhos e rodapés
 retirada de números de páginas
+retratos da leitura no brasil
+reutilização de conjuntos de dados
 reverb
+revisão
+revisão de literatura
+reyes; rosso; buscaldi
 ribeiro
 ribeiro-neto
+richardella
 riloff
+rio de janeiro
+rnn
+rnn-t
 roark
 rodrigues et al., 2020
+roger waters
+rogers, kovaleva, rumshisky
 rotulagem de sequências
 rouge
+rt
+rudimentar
 rudnicky
+rudolph flesch
+ruido_de_ambiente
 russel
+ruído de fundo
+sabiá
+sacada
+sacadas
 sacramento; souza, 2021
+saeb exams
 sager
 salton; mcgill, 1983
+salvador
+santos
 santos et al., 2024
 santos; cardoso, 2007a
 santos_et_al_2002
+sarampo
+sarcasmo
+sarmento (2019)
 satisfação parcial
 saída
 saída_do_sistema
 saúde
+scarton
+scarton; aluísio
 schank et al. (1973) conceptual dependency
 schmidhuber
 schütze
+seara (1994) phonetically balanced sentences
 search effectiveness
 search engines: information retrieval in practice
+second pass fixation duration
+segmentação
+segmentação automática de fala baseada em prosódia
+segmentação automática de textos
+segmentação de sentenças
+segmentação de texto
+segmentação em pedaços (chunks)
+segmentação incorreta
 segmentação textual contínua
+segmentos do texto
+segunda conjugação verbal
+segunda ordem
 segunda transcrição
+segurança de dados
 sekine
+seleção de fatos importantes
+seleção de métricas
+seleção de tratamentos mais adequados
+selva
 semantic content
+semantic networks
+semantic predictability norms
 semantic role labeling
 semantic roles
+semantic_analysis
+semantic_role_labeling
+semantics
 semelhança de texto
+semlink
 semântica
+semântica com técnicas simbólicas
+semântica distribucional
+semântica simbólica
+semântica_distribucional
 sena
 sennrich; haddow; birch, 2016
+sentence
+sentence length
+sentenciamento
+sentenciação
+sentential complexity assessment
 sentença
+sentença de 10 s
+sentença judicial
 sentenças
+sentenças do início
+sentenças do meio
+sentenças judiciais
+sentenças judiciais dos juizados especiais cíveis
+sentenças que finalizam textos jornalísticos
 separação de textos distintos
 sequence-to-sequence
+sequencia_de_unidades_discretas
 sequencia_textual
 sequential classification
+sequência de caracteres
 sequência de palavras
+ser (speech emotion recognition)
 ser humano
 ser ou não ser, eis a questão
+serviço
+seção_4.2.5
 sgs
+shallow parsing
 shaowei
+shardlow, 2014
+share
+shen et al. 2018
+sid
+siddharthan, 2006
+sidney
+significado
 significado interpretado pela máquina
+significado lexical
 significado tencionado pelo humano
+significado: adquirir em troca de pagamento
+silent reading
+silva
+similaridade
 similaridade entre palavras
+similaridade entre vetores de palavras
 similaridade por cosseno
 similaridade semântica
+similaridade_de_palavras
 similarity metrics
+simplifica
+simplificacao_cognitiva_global
+simplificacao_cognitiva_local
+simplificar_texto
+simplificação conceitual
+simplificação de textos
+simplificação lexical
+simplificação linguística
+simplificação sintática
+simplificação textual
+sinal acústico
 sinal diacrítico
+sinal digital
+sinal estacionário
+sinal_acustico
+singh
 sinonímia
+sintagma
 sintaxe
+sintoma
+sinônimos
+sistema
 sistema automático de avaliação
+sistema baseado em regras
+sistema conceitual
+sistema de diálogo
 sistema de extração
+sistema de informação e banco de dados (sinbad)
 sistema de perguntas e respostas
+sistema de processamento de fala
 sistema de processamento de linguagem natural
+sistema de reconhecimento de fala
 sistema de ri
 sistema de tradução automática
 sistema esfinge
+sistemas automáticos de reconhecimento de fala espontânea
+sistemas computacionais
 sistemas de bibliotecas
+sistemas de extração de informação
+sistemas de informação em saúde
+sistemas de processamento de línguas naturais
 sistemas de regras
+sistemas de suporte à decisão médica
 sistemas de ta baseados em regras
 sistemas de tradução
 sistemas estatísticos
+sistemas lógicos
 sistemas neurais
 sistemas_baseados_em_regras
+situation model
+situação de gravação d2
+situação de gravação did
+situação de gravação ef
+sjöholm
+sjöholm (2012)
+skantze, 2007
+skantze, 2021
+skipping rate
 smirnova
+snowball
+soares (1996)
 sobre-geração (overgeneration)
+sobreposicao_de_fala
 socher
 socher et al. (2012)
+socher et al., 2012
+socialgraph
+sociedade
+society
 soderland
+soluções eficazes
+sotaque
 source referencing
 souza
+sp
+sp-2010
 space vectorial
 spacy
+spanish language
 specialized libraries
+speech emotion recognition
+speech processing
 speech recognition
+speech recognition model
+speech recording
+speech restoration
+speech synthesis
+speech synthesis model
+speech synthesis models
+speech synthesis systems based on deep learning
+spillover from previous word
+spontaneous speech
+sql
 stanovsky
 stanovsky et al. (2018)
 stanovsky et al., 2018
@@ -925,50 +2573,169 @@ static representations
 statistical machine translation
 statistical_machine_translation_system
 stemming
+stevens
 stop word
 stop word removal
 stop words
 stop words removal
+stories
 strohman
 su, wu, chang
 sub-geração (fallout)
+sub-representação
+subamostragem
+subreddit
+substantivo
+substituição de palavras
+subtitulos_secoes
 subáreas do pln
 sufixo
+sujeito
+sumario
+sumario_abstrativo
+sumario_extrativo
+sumarios_de_alta
+sumarizacao_automatica
 sumarização
+sumarização abstrativa
+sumarização automática
+sumarização de textos
+sumarização extrativa
+sumarização textual
+summ-it
 summarization
+sumário
+sumário automático extrativo
+sumário crítico
+sumário específico
+sumário genérico
+sumário humano
+sumário indicativo
+sumário informativo
+sumário monodocumento
+sumário multidocumento
+sumários
+sumários de alta
+superior tribunal de justiça
 supervised metrics
 supervisão fraca
+supervisão_fraca
+supremo tribunal federal
+surpresa
 survey de shaowei
+survival
 svm
+symbolic techniques
 symmetry
+synset
+syntactic complexity
+syntactic pattern density
 syntactic similarity tasks
+systemized nomenclature of medicine (snomed ct)
+sátira
+são paulo
+são tomé e príncipe
 século xvii
+século_17
+século_18
+século_19
+síntese de fala
+síntese dos fatos
+súmula
+tachibana, uenoyama, aihara 2017
+tamanho da oração
+tamanho da palavra
+tan; lee; lim (2023)
 tangerina
+tarefa de simplificação textual automática
+tarefa relacionada à complexidade textual
+tarefa_de_atribuição_de_etiquetas_de_pos
 tarefa_de_predicao
 tarefas de pln
+tarefas específicas
+tarefas_relacionadas
+tarsila
+tarsila project
+task execution
+tasks_language_models_perform_poorly
+tasks_language_models_perform_well
+taxa de amostragem
 taylor_1953
+technische universität darmstadt
+tecnicas_normalizacao
+tedx talks
+tedx talks brazil
+teixeira; marengo; finatto (2022)
+teleatendimento bancário
+tema
 templates de resposta
+tempo
 tempo e recursos para processamento
+tempo_para_ensinar
+tempos cognitivos
+temário
+tendências e padrões
+teoria das emoções básicas de ekman
+tep2.0 thesaurus
 ter
+terceira conjugação verbal
+term
+term count
 term frequency
+term-document matrix
+terminologia
+terminologia jurídica
+terminologia técnica
 terminologias
+terminólogos
 termo
+termos clínicos
+termos padronizados
 termos que misturam letras e símbolos
+tesauro
 teste_cloze
+text easability principal component scores
+text segmentation
 text_summarization
 texto
+texto clínico
 texto digitalizado
 texto informal
+texto jornalístico
+texto jurídico
+texto não rotulado
 texto pré-processado
+texto-fonte
+texto_normalizacao
+textos antigos em português
 textos bilíngues
+textos clínicos complexos
+textos da web
+textos legislativos
+textos opinativos
+textos técnicos
+tf-idf
+thomas et al.
 til
+tipo_inf
+tirrell (2018)
 token
 token_de_inicio
 tokenizador
+tokenization
 tokenização
 tokens
+told-br
 tomada de decisão
+tomada de decisão clínica
+tomada de decisão médica
+topic identification
 toral et al. (2018)
+total fixation duration
+toxicidade
+trabalho de pln sobre redes sociais em português
+traditional speech synthesis systems
+tradutor automático
 tradutores atuais
 tradução
 tradução automática
@@ -987,75 +2754,218 @@ tradução neural
 tradução por interlíngua
 tradução_automática
 traduções de referência
+trained annotators
 training
+training corpus
+trajano; bordini; vieira (2023)
 trajetória histórica de avaliação em pln
 transcrição
 transcrição de manuscritos
 transcrição manual
+transcrição textual
+transfer learning
 transferência entre línguas
+transformada discreta de fourier (dft)
 transformer
 transformers
+transgenia
 transitivity
 transkribus
 translation automation
 translation_references
 transparência
+tratamento
+tratamento_da_complexidade
 tratamentos
 tratamentos modernos
+treatment
+treebank
 treinamento
+treinamento bidirecional
+treinamento de modelo
+treinamento de modelo acústico hmm
 treinamento_de_rede_neural
+treinamento_modelos
+tribunal
 tripla
+tristeza
 trust in ai systems
+truthmaker_semantics
 três décadas
+ttr
+tts-portuguese corpus
+turno
+turnos alternados
+tweet
+twitter/x
+typo
+técnica
 técnicas de melhoria de qualidade
+técnicas de representação
+técnicas que utilizam poucos dados
+tópico
 tóquio
+ubiquitous knowledge processing lab
+ud (universal dependencies)
 unidade de indexação
+unidade lexical
 unigrama
+universal dependencies
+universal dependencies (ud)
 universal networking language
 universidade das nações unidas
+universidade de lisboa
+universidade de são paulo
+universidade federal da bahia
+universidade federal de campina grande
+universidade federal de goiás (ufg)
+universidade federal de santa catarina
+universidade federal de são carlos
+universidade tecnológica federal do paraná
+university of são paulo
+university students
 unsupervised metrics
+uruguaiana
+user
 uso comercial
 uso de embeddings em tarefas finais
 uso dos pronomes clíticos
 usuária
 usuário
+usuário do facebook
+usuário humano
+usuários
+usuários-autores
+uva
+validation tool
+valle et al. 2020
 valor de pontuação
 valor_de_similaridade
+valores
+vanin
+vargas
+vargas; van der lann (2011)
+variabilidade da escrita
+variação terminológica
+vaswani et al. (2017)
+vctk
+vctk corpus
+velardi
 verb
+verbnet
+verbo
+verbo "comprar"
+verbo flexionado
+veridador
 verificação da precisão factual
+verificação de locutor
+version 13 of common voice
 versão com léxico explicativo
 versões para processamento
 vetor
 vetor de contexto
+vetor de documento
+vetor de palavra
+vetor denso
+vetor esparso
+vetor_semântico
+vetores
+vetores com features acústicas
+vetores esparsos
+vetores semânticos
+vetorização
+vetorização de subtokens
+veículo
+viagem
 vieira
 vieira et al., 2021
 vieses e preconceitos
+villar; finatto, 2023
+vinagre
 vinculação direta a entidades conhecidas
 viés
 vocabulary size
+vocabulário
+vocabulário jurídico
+vocábulo
+vogal temática
+vogal temática nominal
+vogal temática verbal
+vox populi
+voxforge
+voz
+várias línguas
+vídeo
+vítima
 wang et al. (2016)
+wang et al. 2017
+wang et al. 2023
 warren weaver
+wasserman
+watanabe et al., 2009a
+watanabe et al., 2009b
+water consumption
+wav2vec features
 way
 web como um corpus
+web resources
 wer
+whatsapp
+whisper
+whisper (openai)
+wikilivros em português
+wikiparsec
+wikipedia
 wikipédia (português)
+wiktionary
+windows
+windows phone
 wire57
 wives, 1997
 wolinski; vichot; dillet (1995)
 wolinski; vichot; dillet, 1995
 word
+word boundary
 word embedding
 word error rate
+word information
 word-based lexical metrics
+word2vec
+word_sense_disambiguation
+wordnet
+wordnet.br
+wordpiece
+wu et al., 2018
+xavier, 2002
+xml
 xu
+year 1948
+year 1995
 yisi
+youtube
 yuan
+zelenko
+zelenko; aone; richardella, 2003
 zeng et al. (2014)
 zhang; duh; van durme (2017)
+zhao
 zhou et al., 2024
 zilio; finatto; vieira, 2022
+álgebra linear
+áreas de aplicação de pln
+árvore
+árvore de correferência
+árvores
 árvores sintáticas
+áudio
+áudio_distorcido
+ética e privacidade
 ética em ia
+étienne brunet
+éum
+índice de brunét
+índice flesch
 índice remissivo
 “abacaxi madura”
 “abacaxi maduro”
+“não”

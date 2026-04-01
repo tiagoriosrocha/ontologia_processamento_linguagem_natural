@@ -140,7 +140,7 @@ def listar_propriedades(g, dados_validacao):
 
 def main():
     """Função principal"""
-    arquivo_ontologia = Path(__file__).parent / "ontologia_pln_v3_melhorada.owl"
+    arquivo_ontologia = Path(__file__).parent / "onto_pln.owl"
     
     if not arquivo_ontologia.exists():
         print(f"✗ Arquivo não encontrado: {arquivo_ontologia}")
